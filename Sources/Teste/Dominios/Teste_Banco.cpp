@@ -9,14 +9,14 @@ const std::string Teste_Banco::VALOR_INVALIDO = "0001";
 
 
 void Teste_Banco::configurar(){
-    banco = new Banco;
+    banco = new Codigo_De_Evento;
     estado = SUCESSO;
 }
 
 void Teste_Banco::casoSucesso(){
     try{
-        banco->setBancoNum(VALOR_VALIDO);
-        if(banco->getBancoNum() != VALOR_VALIDO){
+        banco->setCodigoEvento(VALOR_VALIDO);
+        if(banco->getCodigoEvento() != VALOR_VALIDO){
             estado = FALHA;
         }
     } catch(std::invalid_argument &e){
@@ -28,7 +28,7 @@ void Teste_Banco::casoSucesso(){
 
 void Teste_Banco::casoFalha(){
     try{
-        banco->setBancoNum(VALOR_INVALIDO);
+        banco->setCodigoEvento(VALOR_INVALIDO);
         estado = FALHA;
     } catch(std::invalid_argument &e){
         return;

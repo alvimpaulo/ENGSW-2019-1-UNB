@@ -4,22 +4,22 @@
 
 #include "../../../Headers/Controladoras/Apresentacao/CntrAprUsuarios.h"
 #include "../../../Headers/Dominios/Senha.h"
-#include "../../../Headers/Dominios/Nome.h"
+#include "../../../Headers/Dominios/Cidade.h"
 #include "../../../Headers/Entidades/Usuario.h"
 #include "../../../Headers/ComandoSQL/ComandoDescadastrarCartaoCredito.h"
 
 void CntrAprUsuarios::cadastrar() {
     Identificador identificador;
-    Nome nome;
+    Cidade nome;
     Senha senha;
     Usuario usuario;
     std::string input;
 
-    while(nome.getNome() == "NomeNaoDefinido" || senha.getSenha() == "NaoDef1!" || identificador.getIdentificador() == "abcde" ) {
+    while(nome.getCidade() == "NomeNaoDefinido" || senha.getSenha() == "NaoDef1!" || identificador.getIdentificador() == "abcde" ) {
         try {
             std::cout << "Digite o seu nome         : ";
             std::getline(std::cin, input);
-            nome.setNome(input);
+            nome.setCidade(input);
             std::cout << "Digite o seu identificador: ";
             std::getline(std::cin, input);
             identificador.setIdentificador(input);
@@ -110,17 +110,17 @@ CntrAprUsuarios::~CntrAprUsuarios() {
 
 void CntrAprUsuarios::editar(Identificador &identificador) {
 
-    Nome nome;
+    Cidade nome;
     Senha senha;
     Usuario usuario;
     std::string input;
 
 
-    while(nome.getNome() == "NomeNaoDefinido" || senha.getSenha() == "NaoDef1!" || identificador.getIdentificador() == "abcde") {
+    while(nome.getCidade() == "NomeNaoDefinido" || senha.getSenha() == "NaoDef1!" || identificador.getIdentificador() == "abcde") {
         try {
             std::cout << "Digite o seu nome         : ";
             std::getline(std::cin, input);
-            nome.setNome(input);
+            nome.setCidade(input);
 
             std::cout << "Digite a sua senha        : ";
             std::getline(std::cin, input);
@@ -179,7 +179,7 @@ void CntrAprUsuarios::descadastrar(Identificador &identificador) {
 void CntrAprUsuarios::cadastrarContaCorrente(Identificador &identificador) {
     Num_Conta_Corrente numContaCorrente;
     Agencia agencia;
-    Banco banco;
+    Codigo_De_Evento banco;
 
     std::string input;
 
@@ -192,7 +192,7 @@ void CntrAprUsuarios::cadastrarContaCorrente(Identificador &identificador) {
         agencia.setAgenciaNum(input);
         std::cout << "Digite o número de seu banco: ";
         std::getline(std::cin, input);
-        banco.setBancoNum(input);
+        banco.setCodigoEvento(input);
         cntrServUsuario->cadastrarContaCorrente(identificador, numContaCorrente, agencia, banco);
     } catch (std::exception &e){
         return;

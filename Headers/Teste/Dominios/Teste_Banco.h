@@ -6,7 +6,7 @@
 #define TRABALHO_1_CLION_TESTE_BANCO_H
 
 #include <iostream>
-#include "../../Dominios/Banco.h"
+#include "../../Dominios/Codigo_De_Evento.h"
 #include "../Teste.h"
 #include "Teste_Dominios.h"
 #include <stdexcept>
@@ -18,16 +18,16 @@
 class Teste_Banco: public Teste_Dominios{
 public:
     void mensagemSucesso(){
-        std::cout << "Sucesso Banco" << std::endl;
+        std::cout << "Sucesso Codigo_De_Evento" << std::endl;
     }
     void mensagemFalha(){
-        std::cout << "Falha Banco" << std::endl;
+        std::cout << "Falha Codigo_De_Evento" << std::endl;
     }
 private:
     static const std::string VALOR_VALIDO;
     static const std::string VALOR_INVALIDO;
 
-    Banco *banco;
+    Codigo_De_Evento *banco;
     void configurar() override;
     void desconfigurar() override{
         delete banco;

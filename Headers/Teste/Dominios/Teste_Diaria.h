@@ -7,7 +7,7 @@
 
 
 #include <string>
-#include "../../Dominios/Diaria.h"
+#include "../../Dominios/Preco.h"
 #include "../Teste.h"
 #include "Teste_Dominios.h"
 
@@ -18,10 +18,10 @@
 class Teste_Diaria: public Teste_Dominios{
 public:
     void mensagemSucesso(){
-        std::cout << "Sucesso Diaria" << std::endl;
+        std::cout << "Sucesso Preco" << std::endl;
     }
     void mensagemFalha(){
-        std::cout << "Falha Diaria" << std::endl;
+        std::cout << "Falha Preco" << std::endl;
     }
 protected:
 private:
@@ -29,7 +29,7 @@ private:
     static const std::string VALOR_CARACTERE_INVALIDO;
     static const std::string VALOR_INTERVALO_INVALIDO;
 
-    Diaria *diaria;
+    Preco *diaria;
 
     void configurar();
     void desconfigurar(){

@@ -7,7 +7,7 @@
 void Teste_Conta_Corrente::casoSucesso(){
     Num_Conta_Corrente numContaCorrente;
     Agencia agencia;
-    Banco banco;
+    Codigo_De_Evento banco;
     try{
         contaCorrente->setNumero(numContaCorrente);
         contaCorrente->setAgencia(agencia);

@@ -5,9 +5,9 @@
 #include <iostream>
 #include "../../../Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h"
 #include "../../../Headers/Dominios/Tipo_Acomodacao.h"
-#include "../../../Headers/Dominios/Capacidade_De_Acomodacao.h"
-#include "../../../Headers/Dominios/Diaria.h"
-#include "../../../Headers/Dominios/Nome.h"
+#include "../../../Headers/Dominios/Num_De_Sala.h"
+#include "../../../Headers/Dominios/Preco.h"
+#include "../../../Headers/Dominios/Cidade.h"
 #include "../../../Headers/Dominios/Estado.h"
 #include "../../../Headers/Entidades/Acomodacao.h"
 #include <iomanip>
@@ -26,7 +26,7 @@ void printListaAcomodacao(std::list<Acomodacao> list){
     std::cout << "\t";
     std::cout << std::left << std::setw(6) << std::setfill(separator) << "Estado";
     std::cout << "\t";
-    std::cout << std::left << std::setw(9) << std::setfill(separator) << "Diaria";
+    std::cout << std::left << std::setw(9) << std::setfill(separator) << "Preco";
     std::cout << "\t" << std::endl;
 
 
@@ -35,13 +35,13 @@ void printListaAcomodacao(std::list<Acomodacao> list){
         std::cout << "\t";
         std::cout << std::left << std::setw(11) << std::setfill(separator) << acomodacao.getTipo().getTipoAcomodacao();
         std::cout << "\t";
-        std::cout << std::left << std::setw(10) << std::setfill(separator) << acomodacao.getCapacidade().getCapacidade_de_Acomodacao();
+        std::cout << std::left << std::setw(10) << std::setfill(separator) << acomodacao.getCapacidade().getNumSala();
         std::cout << "\t";
-        std::cout << std::left << std::setw(15) << std::setfill(separator) << acomodacao.getCidade().getNome();
+        std::cout << std::left << std::setw(15) << std::setfill(separator) << acomodacao.getCidade().getCidade();
         std::cout << "\t";
         std::cout << std::left << std::setw(6) << std::setfill(separator) << acomodacao.getEstado().getEstado();
         std::cout << "\t";
-        std::cout << std::left << std::setw(9) << std::setfill(separator) << acomodacao.getDiaria().getDiaria();
+        std::cout << std::left << std::setw(9) << std::setfill(separator) << acomodacao.getDiaria().getPreco();
         std::cout << "\t";
         std::cout << std::endl << std::endl;
 
@@ -117,9 +117,9 @@ void CntrAprAcomodacao::executar(Identificador &identificadorUsuario) {
 void CntrAprAcomodacao::pesquisar(Identificador &identificador) {
     Data dataInicio;
     Data dataTermino;
-    Capacidade_De_Acomodacao capacidadeDeAcomodacao;
-    Diaria diaria;
-    Nome cidade;
+    Num_De_Sala capacidadeDeAcomodacao;
+    Preco diaria;
+    Cidade cidade;
     Estado estado;
 
     Acomodacao acomodacao;
@@ -136,16 +136,16 @@ void CntrAprAcomodacao::pesquisar(Identificador &identificador) {
         dataTermino.setData(input);
         std::cout << "Digite a capacidade de sua acomodacao : ";
         std::getline(std::cin, input);
-        capacidadeDeAcomodacao.setCapacidade_De_Acomodacao(input);
-        std::cout << "Digite o valor da diaria              : ";
+        capacidadeDeAcomodacao.setNumSala(input);
+        std::cout << "Digite o valor da preco              : ";
         std::getline(std::cin, input);
-        diaria.setDiaria(input);
+        diaria.setPreco(input);
         std::cout << "Digite o estado onde é localizada     : ";
         std::getline(std::cin, input);
         estado.setEstado(input);
         std::cout << "Digite a cidade onde é localizada     : ";
         std::getline(std::cin, input);
-        cidade.setNome(input);
+        cidade.setCidade(input);
     } catch (std::invalid_argument &e) {
         std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
         return;
@@ -164,9 +164,9 @@ void CntrAprAcomodacao::pesquisar(Identificador &identificador) {
 void CntrAprAcomodacao::cadastrar(const Identificador &identificadorUsuario) {
     Identificador id;
     Tipo_Acomodacao tipoAcomodacao;
-    Capacidade_De_Acomodacao capacidadeDeAcomodacao;
-    Diaria diaria;
-    Nome cidade;
+    Num_De_Sala capacidadeDeAcomodacao;
+    Preco diaria;
+    Cidade cidade;
     Estado estado;
 
     Acomodacao acomodacao;
@@ -184,16 +184,16 @@ void CntrAprAcomodacao::cadastrar(const Identificador &identificadorUsuario) {
             tipoAcomodacao.setTipoAcomodacao(input);
             std::cout << "Digite a capacidade de sua acomodacao : ";
             std::getline(std::cin, input);
-            capacidadeDeAcomodacao.setCapacidade_De_Acomodacao(input);
-            std::cout << "Digite o valor da diaria              : ";
+            capacidadeDeAcomodacao.setNumSala(input);
+            std::cout << "Digite o valor da preco              : ";
             std::getline(std::cin, input);
-            diaria.setDiaria(input);
+            diaria.setPreco(input);
             std::cout << "Digite o estado onde é localizada     : ";
             std::getline(std::cin, input);
             estado.setEstado(input);
             std::cout << "Digite a cidade onde é localizada     : ";
             std::getline(std::cin, input);
-            cidade.setNome(input);
+            cidade.setCidade(input);
             sair = true;
         } catch (std::invalid_argument &e) {
             std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;

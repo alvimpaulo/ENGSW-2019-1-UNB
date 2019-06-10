@@ -7,12 +7,12 @@ add_executable(Trabalho_1_Clion
 		main.cpp
 		Sources/Dominios/Agencia.cpp
 		Headers/Dominios/Agencia.h
-		Sources/Dominios/Banco.cpp
-		Headers/Dominios/Banco.h
-		Sources/Dominios/Capacidade_De_Acomodacao.cpp
-		Headers/Dominios/Capacidade_De_Acomodacao.h
-		Sources/Dominios/Diaria.cpp
-		Headers/Dominios/Diaria.h
+        Sources/Dominios/Codigo_De_Evento.cpp
+        Headers/Dominios/Codigo_De_Evento.h
+		Sources/Dominios/Num_De_Sala.cpp
+		Headers/Dominios/Num_De_Sala.h
+        Sources/Dominios/Preco.cpp
+        Headers/Dominios/Preco.h
 		Sources/Dominios/Data.cpp
 		Headers/Dominios/Data.h
 		Sources/Dominios/Data_De_Validade.cpp
@@ -21,8 +21,8 @@ add_executable(Trabalho_1_Clion
 		Headers/Dominios/Estado.h
 		Sources/Dominios/Identificador.cpp
 		Headers/Dominios/Identificador.h
-		Sources/Dominios/Nome.cpp
-		Headers/Dominios/Nome.h
+		Sources/Dominios/Cidade.cpp
+		Headers/Dominios/Cidade.h
 		Sources/Dominios/Num_Cartao_Credito.cpp
 		Headers/Dominios/Num_Cartao_Credito.h
 		Sources/Dominios/Num_Conta_Corrente.cpp
@@ -154,4 +154,4 @@ add_executable(Trabalho_1_Clion
 		Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp
 		Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h
 		Sources/ComandoSQL/ComandoChecarContaCorrente.cpp
-		Headers/ComandoSQL/ComandoChecarContaCorrente.h)
+		Headers/ComandoSQL/ComandoChecarContaCorrente.h Sources/Dominios/Codigo_De_Apresentacao.cpp Headers/Dominios/Codigo_De_Apresentacao.h Sources/Dominios/Codigo_De_Ingresso.cpp Headers/Dominios/Codigo_De_Ingresso.h Sources/Dominios/Nome_De_Evento.cpp Headers/Dominios/Nome_De_Evento.h Sources/Dominios/Codigo_De_Seguranca.cpp Headers/Dominios/Codigo_De_Seguranca.h Sources/Dominios/Faixa_Etaria.cpp Headers/Dominios/Faixa_Etaria.h Sources/Dominios/Horario.cpp Headers/Dominios/Horario.h Sources/Dominios/Disponibilidade.cpp Headers/Dominios/Disponibilidade.h Sources/Dominios/Classe_De_Evento.cpp Headers/Dominios/Classe_De_Evento.h Sources/Dominios/Cpf.cpp Headers/Dominios/Cpf.h Sources/Entidades/Ingresso.cpp Headers/Entidades/Ingresso.h Sources/Entidades/Evento.cpp Headers/Entidades/Evento.h Sources/Entidades/Apresentacao.cpp Headers/Entidades/Apresentacao.h Headers/Interfaces/Apresentacao/InterAprEvento.h Headers/Interfaces/Servico/InterServEvento.h)

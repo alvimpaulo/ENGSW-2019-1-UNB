@@ -5,8 +5,8 @@
 #include "../../../Headers/Controladoras/Servico/CntrsServAcomodacao.h"
 
 std::list<Acomodacao> CntrsServAcomodacao::pesquisar(const Data &dataInicio, const Data &dataTermino,
-                                                     const Capacidade_De_Acomodacao &capacidadeDeAcomodacao,
-                                                     const Nome &cidade, const Estado &estado) {
+                                                     const Num_De_Sala &capacidadeDeAcomodacao,
+                                                     const Cidade &cidade, const Estado &estado) {
     ComandoPesquisarAcomodacao sqlPesquisar(dataInicio, dataTermino, capacidadeDeAcomodacao, cidade, estado);
     sqlPesquisar.executar();
     std::list<Acomodacao> resultadoPesquisa = sqlPesquisar.getResultado(dataInicio, dataTermino);
@@ -15,8 +15,8 @@ std::list<Acomodacao> CntrsServAcomodacao::pesquisar(const Data &dataInicio, con
 }
 
 void CntrsServAcomodacao::cadastrar(const Identificador &identificadorAcomodacao, const Tipo_Acomodacao &tipoAcomodacao,
-                                    const Capacidade_De_Acomodacao &capacidadeDeAcomodacao, const Diaria &diaria,
-                                    const Nome &cidade, const Estado &estado,
+                                    const Num_De_Sala &capacidadeDeAcomodacao, const Preco &diaria,
+                                    const Cidade &cidade, const Estado &estado,
                                     const Identificador& identificadorUsuario) {
     ComandoChecarContaCorrente sqlChecarConta(identificadorUsuario);
     bool existeConta = sqlChecarConta.existeConta();

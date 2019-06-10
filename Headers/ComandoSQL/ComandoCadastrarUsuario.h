@@ -6,14 +6,14 @@
 #define TRABALHO_1_CLION_COMANDOCADASTRARUSUARIO_H
 
 
-#include "../Dominios/Nome.h"
+#include "../Dominios/Cidade.h"
 #include "../Dominios/Identificador.h"
 #include "../Dominios/Senha.h"
 #include "ComandoSQL.h"
 
 class ComandoCadastrarUsuario: public ComandoSQL{
 public:
-    void cadastrarUsuario(const Nome& nome, const Identificador& identificador, const Senha& senha);
+    void cadastrarUsuario(const Cidade& nome, const Identificador& identificador, const Senha& senha);
 };
 
 

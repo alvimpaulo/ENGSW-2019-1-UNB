@@ -8,15 +8,15 @@ const std::string Teste_Nome::VALOR_VALIDO = "Paulo Alvim.Alv";
 const std::string Teste_Nome::VALOR_INVALIDO = "Oscar Madureira .";
 
 void Teste_Nome::configurar(){
-    nome = new Nome;
+    nome = new Cidade;
     estado = SUCESSO;
 
 }
 
 void Teste_Nome::casoSucesso(){
     try{
-        nome->setNome(VALOR_VALIDO);
-        if(nome->getNome() != VALOR_VALIDO){
+        nome->setCidade(VALOR_VALIDO);
+        if(nome->getCidade() != VALOR_VALIDO){
             estado = FALHA;
         }
     } catch(std::invalid_argument &e){
@@ -28,7 +28,7 @@ void Teste_Nome::casoSucesso(){
 
 void Teste_Nome::casoFalha(){
     try{
-        nome->setNome(VALOR_INVALIDO);
+        nome->setCidade(VALOR_INVALIDO);
         estado = FALHA;
     } catch(std::invalid_argument &e){
         return;

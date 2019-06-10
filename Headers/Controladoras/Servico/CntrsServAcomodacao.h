@@ -20,10 +20,10 @@ public:
 
 
     //Retorna as acomodacoes que batem com a pesquisae_De
-     std::list<Acomodacao> pesquisar(const Data& dataInicio, const Data& dataTermino, const Capacidade_De_Acomodacao& capacidadeDeAcomodacao, const Nome& cidade, const Estado& estado);
+     std::list<Acomodacao> pesquisar(const Data& dataInicio, const Data& dataTermino, const Num_De_Sala& capacidadeDeAcomodacao, const Cidade& cidade, const Estado& estado);
 
     //Cadastra uma nova acomodacao para o usuario atual. Todos parametros sao obrigatorios
-     void cadastrar(const Identificador& identificadorAcomodacao, const Tipo_Acomodacao& tipoAcomodacao, const Capacidade_De_Acomodacao& capacidadeDeAcomodacao, const Diaria& diaria, const Nome& cidade, const Estado& estado, const Identificador& identificadorUsuario);
+     void cadastrar(const Identificador& identificadorAcomodacao, const Tipo_Acomodacao& tipoAcomodacao, const Num_De_Sala& capacidadeDeAcomodacao, const Preco& diaria, const Cidade& cidade, const Estado& estado, const Identificador& identificadorUsuario);
 
     //Cadastra uma nova disponibilidade em uma acomodacao pelo seu identificador
     void cadastrarDisponibilidade(const Identificador &identificadorAcomodacao, const Data &dataInicio,

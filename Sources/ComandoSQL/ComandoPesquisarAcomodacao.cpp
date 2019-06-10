@@ -5,13 +5,13 @@
 #include "../../Headers/ComandoSQL/ComandoPesquisarAcomodacao.h"
 
 ComandoPesquisarAcomodacao::ComandoPesquisarAcomodacao(const Data &dataInicio, const Data &dataTermino,
-                                                       const Capacidade_De_Acomodacao &capacidadeDeAcomodacao,
-                                                       const Nome &cidade, const Estado &estado) {
+                                                       const Num_De_Sala &capacidadeDeAcomodacao,
+                                                       const Cidade &cidade, const Estado &estado) {
     listaResultado.clear();
     comandoSQL = "SELECT * FROM Acomodacoes WHERE Capacidade = '";
-    comandoSQL += capacidadeDeAcomodacao.getCapacidade_de_Acomodacao();
+    comandoSQL += capacidadeDeAcomodacao.getNumSala();
     comandoSQL += "' and Cidade = '";
-    comandoSQL += cidade.getNome();
+    comandoSQL += cidade.getCidade();
     comandoSQL += "' and Estado = '";
     comandoSQL += estado.getEstado();
     comandoSQL += "'";
@@ -25,10 +25,10 @@ std::list<Acomodacao> ComandoPesquisarAcomodacao::getResultado(const Data &dataI
 
     Identificador identificador;
     Tipo_Acomodacao tipoAcomodacao;
-    Capacidade_De_Acomodacao capacidadeDeAcomodacao;
-    Nome cidade;
+    Num_De_Sala capacidadeDeAcomodacao;
+    Cidade cidade;
     Estado estado;
-    Diaria diaria;
+    Preco diaria;
     std::list<Intervalo_Datas> disponibilidades;
     std::list<Intervalo_Datas> reservas;
 
@@ -46,13 +46,13 @@ std::list<Acomodacao> ComandoPesquisarAcomodacao::getResultado(const Data &dataI
         if (!colunaAtual.getNomeColuna().compare("Tipo")) // se for tipo
             tipoAcomodacao.setTipoAcomodacao(colunaAtual.getValorColuna());
         if (!colunaAtual.getNomeColuna().compare("Capacidade")) // se for identificador
-            capacidadeDeAcomodacao.setCapacidade_De_Acomodacao(colunaAtual.getValorColuna());
+            capacidadeDeAcomodacao.setNumSala(colunaAtual.getValorColuna());
         if (!colunaAtual.getNomeColuna().compare("Cidade")) // se for identificador
-            cidade.setNome(colunaAtual.getValorColuna());
+            cidade.setCidade(colunaAtual.getValorColuna());
         if (!colunaAtual.getNomeColuna().compare("Estado")) // se for identificador
             estado.setEstado(colunaAtual.getValorColuna());
-        if (!colunaAtual.getNomeColuna().compare("Diaria")) // se for identificador
-            diaria.setDiaria(colunaAtual.getValorColuna());
+        if (!colunaAtual.getNomeColuna().compare("Preco")) // se for identificador
+            diaria.setPreco(colunaAtual.getValorColuna());
         if (!colunaAtual.getNomeColuna().compare("Usuario")) // se for identificador
             identificadorUsuario.setIdentificador(colunaAtual.getValorColuna());
         listaResultado.pop_front();

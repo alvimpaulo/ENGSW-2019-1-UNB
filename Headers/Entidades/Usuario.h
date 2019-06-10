@@ -6,13 +6,12 @@
 #ifndef TRABALHO_1_CLION_USUARIO_H
 #define TRABALHO_1_CLION_USUARIO_H
 
-#include "../../Headers/Dominios/Nome.h"
-#include "../../Headers/Dominios/Identificador.h"
+#include "../../Headers/Dominios/Cpf.h"
 #include "../../Headers/Dominios/Senha.h"
 
 /**
  * @brief Entidade que trata de um usuário.
- * @details Entidade que trata de um usuário contendo os domínios Nome, Identificador e Senha.
+ * @details Entidade que trata de um usuário contendo os domínios Cpf e Senha.
  */
 class Usuario{
 public:
@@ -20,43 +19,27 @@ public:
     /**
      * @brief Construtor que inicializa os domínios contidos nessa entidade.
      */
-    Usuario():nome(),identificador(),senha(){}
+    Usuario():cpf(),senha(){}
 
     /**
-     * @brief Atribui um novo nome (Domínio) à conta corrente,
-     * @param nome Novo nome a ser atribuído à conta.
+     * @brief Atribui um novo cpf ao usuario.
+     * @param cpf Novo cpf a ser atribuido ao usuario.
      */
-    void setNome(Nome nome){
-        this->nome = nome;
+    void setCpf(Cpf cpf){
+        this->cpf = cpf;
     }
 
     /**
-     * @brief Retorna o nome (domínio) atual da conta corrente.
-     * @return Nome (Domínio) a ser retornado.
+     * @brief Retorna o cpf atual do usuario.
+     * @return Cpf a ser retornado
      */
-    Nome getNome(){
-        return nome;
+    Cpf getCpf(){
+        return cpf;
     }
 
     /**
-     * @brief Atribui um novo identificador (Domínio) à conta corrente,
-     * @param identificador Novo identificador a ser atribuído à conta.
-     */
-    void setIdentificador(Identificador identificador){
-        this->identificador = identificador;
-    }
-
-    /**
-     * @brief Retorna o identificador (domínio) atual da conta corrente.
-     * @return Identificador (Domínio) a ser retornado.
-     */
-    Identificador getIdentificador(){
-        return identificador;
-    }
-
-    /**
-    * @brief Atribui uma nova senha (Domínio) à conta corrente,
-    * @param senha Nova senha a ser atribuída à conta.
+    * @brief Atribui uma nova senha (Domínio) ao usuario,
+    * @param senha Nova senha a ser atribuída ao usuario.
     */
     void setSenha(Senha senha){
         this->senha = senha;
@@ -72,8 +55,7 @@ public:
 
 protected:
 private:
-    Nome nome;
-    Identificador identificador;
+    Cpf cpf;
     Senha senha;
 };
 

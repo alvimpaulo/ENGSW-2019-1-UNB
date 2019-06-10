@@ -9,10 +9,10 @@ ComandoEditarAcomodacao::ComandoEditarAcomodacao(const Identificador &identifica
     listaResultado.clear();
     comandoSQL = "update Acomodacoes set ";
     comandoSQL += "Tipo = '" + acomodacao.getTipo().getTipoAcomodacao() + "'";
-    comandoSQL += ", Capacidade = '" + acomodacao.getCapacidade().getCapacidade_de_Acomodacao() + "'";
-    comandoSQL += ", Cidade = '" + acomodacao.getCidade().getNome() + "'";
+    comandoSQL += ", Capacidade = '" + acomodacao.getCapacidade().getNumSala() + "'";
+    comandoSQL += ", Cidade = '" + acomodacao.getCidade().getCidade() + "'";
     comandoSQL += ", Estado = '" + acomodacao.getEstado().getEstado() + "'";
-    comandoSQL += ", Diaria = '" + std::to_string(acomodacao.getDiaria().getDiaria()) + "'";
+    comandoSQL += ", Preco = '" + std::to_string(acomodacao.getDiaria().getPreco()) + "'";
     comandoSQL += " where Identificador = '" + identificadorAcomodacao.getIdentificador() + "'";
 
 }

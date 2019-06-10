@@ -10,7 +10,7 @@
 
 class ComandoCadastrarAcomodacao : public ComandoSQL {
 public:
-    ComandoCadastrarAcomodacao(const Identificador& identificador, const Tipo_Acomodacao& tipoAcomodacao,const Capacidade_De_Acomodacao& capacidadeDeAcomodacao, const Diaria& diaria, const Nome& cidade, const Estado& estado, const Identificador& identificadorUsuario);
+    ComandoCadastrarAcomodacao(const Identificador& identificador, const Tipo_Acomodacao& tipoAcomodacao,const Num_De_Sala& capacidadeDeAcomodacao, const Preco& diaria, const Cidade& cidade, const Estado& estado, const Identificador& identificadorUsuario);
 };
 
 #endif //TRABALHO_1_CLION_COMANDOCADASTRARACOMODACAO_H

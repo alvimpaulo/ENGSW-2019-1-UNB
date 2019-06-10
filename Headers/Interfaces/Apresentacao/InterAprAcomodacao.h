@@ -6,7 +6,7 @@
 #define TRABALHO_1_CLION_INTERAPRACOMODACAO_H
 
 
-#include "../../Dominios/Identificador.h"
+#include "../../Dominios/Cpf.h"
 #include "../Servico/InterServAcomodacao.h"
 
 class InterAprAcomodacao{

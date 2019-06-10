@@ -15,7 +15,7 @@ int Teste_Usuario::rodar(){
 }
 
 void Teste_Usuario::casoSucesso(){
-    Nome nome;
+    Cidade nome;
     Identificador identificador;
     Senha senha;
 

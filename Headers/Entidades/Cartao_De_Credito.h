@@ -6,6 +6,8 @@
 
 #include "../../Headers/Dominios/Num_Cartao_Credito.h"
 #include "../../Headers/Dominios/Data_De_Validade.h"
+#include "../../Headers/Dominios/Codigo_De_Seguranca.h"
+
 
 /**
  * @brief Entidade que armazena um cartão de crédito.
@@ -18,7 +20,7 @@ public:
      * @brief Construtor da classe.
      * @details Quando uma instância dessa classe for criada, será armazenado um valor padrão de suas variáveis.
      */
-    Cartao_De_Credito():numero(),dataDeValidade(){}
+    Cartao_De_Credito():numero(),dataDeValidade(), codigoDeSeguranca(){}
 
     /**
      * @brief Atribui o número do cartão de crédito.
@@ -52,10 +54,27 @@ public:
         return dataDeValidade;
     }
 
+    /**
+     * @brief Atribui o codigo de seguranca do cartão de crédito.
+     * @details Atribui o codigo de seguranca do cartão de crédito.
+     * @param dataDeValidade Codigo de seguranca que será atribuído.
+     */
+    void setCodigoDeSeguranca(Codigo_De_Seguranca &codigoDeSeguranca){
+        this->codigoDeSeguranca = codigoDeSeguranca;
+    }
+    /**
+     * @brief Retorna o codigo de seguranca do cartão de crédito.
+     * @return Codigo de seguranca contendo a data de validade do cartão de crédito.
+     */
+    Codigo_De_Seguranca getCodigoDeSeguranca() const{
+        return codigoDeSeguranca;
+    }
+
 protected:
 private:
     Num_Cartao_Credito numero;
     Data_De_Validade dataDeValidade;
+    Codigo_De_Seguranca codigoDeSeguranca;
 };
 
 

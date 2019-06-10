@@ -6,11 +6,11 @@
 
 #include "../../Headers/Dominios/Identificador.h"
 #include "../../Headers/Dominios/Tipo_Acomodacao.h"
-#include "../Dominios/Capacidade_De_Acomodacao.h"
+#include "../Dominios/Num_De_Sala.h"
 #include "../../Headers/Dominios/Data.h"
-#include "../../Headers/Dominios/Nome.h"
+#include "../Dominios/Cidade.h"
 #include "../../Headers/Dominios/Estado.h"
-#include "../../Headers/Dominios/Diaria.h"
+#include "../Dominios/Preco.h"
 #include <list>
 #include "Intervalo_Datas.h"
 #include <algorithm>
@@ -64,14 +64,14 @@ public:
      * @details Atribui a capacidade da acomodação.
      * @param capacidade Capacidade_De_Acomodacao que será atribuída.
      */
-    void setCapacidade(Capacidade_De_Acomodacao &capacidade){
+    void setCapacidade(Num_De_Sala &capacidade){
         this->capacidade = capacidade;
     }
     /**
      * @brief Retorna a capacidade da acomodação.
      * @return Capacidade_De_Acomodacao contendo a capacidade de acomodação.
      */
-    Capacidade_De_Acomodacao getCapacidade() const{
+    Num_De_Sala getCapacidade() const{
         return capacidade;
     }
 
@@ -82,14 +82,14 @@ public:
      * @details Atribui o nome da cidade onde a acomodação é localizada.
      * @param cidade Nome que contém o nome da cidade a ser atribuído.
      */
-    void setCidade(Nome &cidade){
+    void setCidade(Cidade &cidade){
         this->cidade = cidade;
     }
     /**
      * @brief Retorna o nome da cidade onde a acomodação é localizada.
      * @return Nome contendo o nome da cidade onde a acomodação é localizada.
      */
-    Nome getCidade() const{
+    Cidade getCidade() const{
         return cidade;
     }
 
@@ -114,14 +114,14 @@ public:
      * @details Atribui o diária da acomodação.
      * @param diaria Diaria que contém o valor da diária a ser atribuída.
      */
-    void setDiaria(Diaria &diaria){
+    void setDiaria(Preco &diaria){
         this->diaria = diaria;
     }
     /**
      * @brief Retorna a diária da acomodação.
      * @return Diaria contendo a diária da acomodação.
      */
-    Diaria getDiaria() const{
+    Preco getDiaria() const{
         return diaria;
     }
 
@@ -147,10 +147,10 @@ protected:
 private:
     Identificador identificador;
     Tipo_Acomodacao tipo;
-    Capacidade_De_Acomodacao capacidade;
-    Nome cidade;
+    Num_De_Sala capacidade;
+    Cidade cidade;
     Estado estado;
-    Diaria diaria;
+    Preco diaria;
     std::list<Intervalo_Datas> disponibilidades;
     std::list<Intervalo_Datas> reservas;
 

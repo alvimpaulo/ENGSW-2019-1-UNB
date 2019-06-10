@@ -6,7 +6,7 @@
 #define TRABALHO_1_CLION_TESTE_CAPACIDADE_DE_ACOMOCADAO_H
 
 #include <iostream>
-#include "../../Dominios/Capacidade_De_Acomodacao.h"
+#include "../../Dominios/Num_De_Sala.h"
 #include "../Teste.h"
 #include "Teste_Dominios.h"
 #include <stdexcept>
@@ -28,7 +28,7 @@ private:
     static const std::string VALOR_VALIDO;
     static const std::string VALOR_INVALIDO;
 
-    Capacidade_De_Acomodacao *capacidade;
+    Num_De_Sala *capacidade;
     void configurar();
     void desconfigurar(){
         delete capacidade;

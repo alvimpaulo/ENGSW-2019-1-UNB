@@ -13,13 +13,13 @@
 #include "../../../Headers/ComandoSQL/ComandoEditarUsuario.h"
 
 
-void CntrsServUsuarios::cadastrarUsuario(const Nome &nome, const Identificador &identificador, const Senha &senha) {
+void CntrsServUsuarios::cadastrarUsuario(const Cidade &nome, const Identificador &identificador, const Senha &senha) {
     ComandoCadastrarUsuario comandoSQL;
     comandoSQL.cadastrarUsuario(nome, identificador, senha);
 }
 
 void CntrsServUsuarios::cadastrarContaCorrente( const Identificador &identificador, const Num_Conta_Corrente &numContaCorrente,
-        const Agencia &agencia, const Banco &banco) {
+        const Agencia &agencia, const Codigo_De_Evento &banco) {
     ComandoCadastrarContaCorrente comandoSQL;
     comandoSQL.cadastrarContaCorrente(identificador, numContaCorrente, agencia, banco);
 }
@@ -45,7 +45,7 @@ void CntrsServUsuarios::descadastrarCartaoCredito(const Num_Cartao_Credito &numC
     comandoSQL.descadastrarCartao(numCartaoCredito);
 }
 
-void CntrsServUsuarios::editarUsuario(const Nome &nome, const Senha &senha, const Identificador &identificador) {
+void CntrsServUsuarios::editarUsuario(const Cidade &nome, const Senha &senha, const Identificador &identificador) {
     ComandoEditarUsuario comandoEditarUsuario;
     comandoEditarUsuario.editarUsuario(nome, senha, identificador);
 }

@@ -9,7 +9,7 @@
 #include "../Controladoras/Servico/CntrsServAcomodacao.h"
 class ComandoPesquisarAcomodacao : public ComandoSQL {
 public:
-    ComandoPesquisarAcomodacao(const Data& dataInicio, const Data& dataTermino, const Capacidade_De_Acomodacao& capacidadeDeAcomodacao, const Nome& cidade, const Estado& estado);
+    ComandoPesquisarAcomodacao(const Data& dataInicio, const Data& dataTermino, const Num_De_Sala& capacidadeDeAcomodacao, const Cidade& cidade, const Estado& estado);
     std::list<Acomodacao> getResultado(const Data &dataInicio, const Data &dataTermino);
 };
 

@@ -6,7 +6,7 @@
 
 void ComandoCadastrarContaCorrente::cadastrarContaCorrente(const Identificador &identificador,
                                                            const Num_Conta_Corrente &numContaCorrente,
-                                                           const Agencia &agencia, const Banco &banco) {
+                                                           const Agencia &agencia, const Codigo_De_Evento &banco) {
     listaResultado.clear();
     bool aux;
 
@@ -28,8 +28,9 @@ void ComandoCadastrarContaCorrente::cadastrarContaCorrente(const Identificador &
     listaResultado.clear();
 
     if(aux){
-        comandoSQL = "insert into Conta_Corrente (Numero, Agencia, Banco, Usuario) values(\n"
-                     "\t'" + numContaCorrente.getNum_Conta_Corrente() + "', '" + agencia.getAgenciaNum() + "', '" + banco.getBancoNum() + "', '" + identificador.getIdentificador()+ "'\n"
+        comandoSQL = "insert into Conta_Corrente (Numero, Agencia, Codigo_De_Evento, Usuario) values(\n"
+                     "\t'" + numContaCorrente.getNum_Conta_Corrente() + "', '" + agencia.getAgenciaNum() + "', '" +
+                banco.getCodigoEvento() + "', '" + identificador.getIdentificador()+ "'\n"
                      "\t);\n";
 
         try {

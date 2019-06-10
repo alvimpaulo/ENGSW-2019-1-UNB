@@ -15,19 +15,19 @@ void Teste_Acomodacao::casoSucesso(){
     Intervalo_Datas intervaloDatas;
     Identificador identificador;
     Tipo_Acomodacao tipo;
-    Capacidade_De_Acomodacao capacidade;
+    Num_De_Sala capacidade;
     Data dataInicio;
     Data dataTermino;
-    Nome cidade;
+    Cidade cidade;
     Estado estado;
-    Diaria diaria;
+    Preco diaria;
 
     identificador.setIdentificador("abcde");
     tipo.setTipoAcomodacao("Casa");
-    capacidade.setCapacidade_De_Acomodacao("1");
-    cidade.setNome("Paulo Alvim.Alv");
+    capacidade.setNumSala("1");
+    cidade.setCidade("Paulo Alvim.Alv");
     estado.setEstado("BA");
-    diaria.setDiaria("1224.50");
+    diaria.setPreco("1224.50");
     data1.setData("10/jan/2010");
     data2.setData("11/jan/2011");
     intervaloDatas.setDataInicio(data1);

@@ -7,7 +7,7 @@
 
 #include "../../Headers/Dominios/Num_Conta_Corrente.h"
 #include "../../Headers/Dominios/Agencia.h"
-#include "../../Headers/Dominios/Banco.h"
+#include "../Dominios/Codigo_De_Evento.h"
 
 /**
  * @brief Entidade que trata de uma conta conrrente.
@@ -56,7 +56,7 @@ public:
      * @brief Atribui um novo banco (Domínio) à conta corrente,
      * @param banco Novo banco a ser atribuido à conta.
      */
-    void setBanco(Banco banco){
+    void setBanco(Codigo_De_Evento banco){
         this->banco = banco;
     }
 
@@ -64,7 +64,7 @@ public:
      * @brief Retorna o banco (domínio) atual da conta corrente.
      * @return Banco (Domínio) a ser retornada.
      */
-    Banco getBanco() const{
+    Codigo_De_Evento getBanco() const{
         return banco;
     }
 
@@ -72,7 +72,7 @@ protected:
 private:
     Num_Conta_Corrente numero;
     Agencia agencia;
-    Banco banco;
+    Codigo_De_Evento banco;
 };
 
 

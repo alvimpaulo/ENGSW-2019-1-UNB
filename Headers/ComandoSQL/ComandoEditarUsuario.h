@@ -7,13 +7,13 @@
 
 
 #include "ComandoSQL.h"
-#include "../Dominios/Nome.h"
+#include "../Dominios/Cidade.h"
 #include "../Dominios/Senha.h"
 #include "../Dominios/Identificador.h"
 
 class ComandoEditarUsuario: public ComandoSQL{
 public:
-    void editarUsuario(const Nome &nome, const Senha &senha, const Identificador &identificador);
+    void editarUsuario(const Cidade &nome, const Senha &senha, const Identificador &identificador);
 };
 
 
