@@ -7,11 +7,11 @@
 
 
 #include "ComandoSQL.h"
-#include "../Dominios/Identificador.h"
+#include "../Entidades/Usuario.h"
 
 class ComandoDescadastrarUsuario: public ComandoSQL{
 public:
-    void descadastraUsuario(const Identificador &identificador);
+    void descadastraUsuario(const Usuario& usuario);
 };
 
 
