@@ -5,9 +5,10 @@
 #include "../../../Headers/Controladoras/Servico/CntrsServAutenticacao.h"
 #include "../../../Headers/ComandoSQL/ComandoAutenticar.h"
 
-void CntrsServAutenticacao::autenticar(const Identificador& identificador, const Senha& senha){
+
+void CntrsServAutenticacao::autenticar(const Usuario& usuario) {
     ComandoAutenticar SQLAutenticar;
-    if(senha.getSenha() != SQLAutenticar.getSenha(identificador)){
-        throw std::runtime_error("Identificador ou Senha incorretos");
+    if(usuario.getSenha().getSenha() != SQLAutenticar.getSenha(usuario)){
+        throw std::runtime_error("Cpf ou Senha incorretos");
     }
 }

@@ -7,6 +7,7 @@
 
 
 #include "../../Interfaces/Apresentacao/InterAprAutenticacao.h"
+#include "../../Entidades/Usuario.h"
 
 class CntrAprAutenticacao: public InterAprAutenticacao{
 private:
@@ -14,7 +15,7 @@ private:
 protected:
 public:
     CntrAprAutenticacao();
-    void autenticar(Identificador &identificador) override;
+    void autenticar(Usuario &usuario) override;
     void setCntrsServAutenticacao(InterServAutenticacao *cntrServAutenticacao) override;
     virtual ~CntrAprAutenticacao();
 };

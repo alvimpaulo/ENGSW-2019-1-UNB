@@ -4,12 +4,10 @@
 
 #include "../../Headers/ComandoSQL/ComandoCadastrarUsuario.h"
 
-void ComandoCadastrarUsuario::cadastrarUsuario(const Cidade &nome, const Identificador &identificador, const Senha &senha) {
+void ComandoCadastrarUsuario::cadastrarUsuario(const Cpf& cpf, const Senha &senha) {
     listaResultado.clear();
-    comandoSQL = "INSERT INTO Usuarios (Cidade, Identificador, Senha)\nVALUES ('"
-       + nome.getCidade()
-       +"', '"
-       +identificador.getIdentificador()
+    comandoSQL = "INSERT INTO Usuarios (Cpf, Senha)\nVALUES ('"
+       + cpf.getCpf()
        +"', '"
        +senha.getSenha()
        +"');";

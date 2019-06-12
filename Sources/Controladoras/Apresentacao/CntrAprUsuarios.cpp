@@ -3,26 +3,20 @@
 //
 
 #include "../../../Headers/Controladoras/Apresentacao/CntrAprUsuarios.h"
-#include "../../../Headers/Dominios/Senha.h"
-#include "../../../Headers/Dominios/Cidade.h"
 #include "../../../Headers/Entidades/Usuario.h"
 #include "../../../Headers/ComandoSQL/ComandoDescadastrarCartaoCredito.h"
 
 void CntrAprUsuarios::cadastrar() {
-    Identificador identificador;
-    Cidade nome;
+    Cpf cpf;
     Senha senha;
     Usuario usuario;
     std::string input;
 
-    while(nome.getCidade() == "NomeNaoDefinido" || senha.getSenha() == "NaoDef1!" || identificador.getIdentificador() == "abcde" ) {
+    while(cpf.getCpf() == "000.000.000-00" || senha.getSenha() == "NaoDef1!") {
         try {
-            std::cout << "Digite o seu nome         : ";
+            std::cout << "Digite o seu cpf : ";
             std::getline(std::cin, input);
-            nome.setCidade(input);
-            std::cout << "Digite o seu identificador: ";
-            std::getline(std::cin, input);
-            identificador.setIdentificador(input);
+            cpf.setCpf(input);
             std::cout << "Digite a sua senha        : ";
             std::getline(std::cin, input);
             senha.setSenha(input);
@@ -31,33 +25,27 @@ void CntrAprUsuarios::cadastrar() {
         }
     }
 
-    usuario.setNome(nome);
-    usuario.setIdentificador(identificador);
+    usuario.setCpf(cpf);
     usuario.setSenha(senha);
 
     try{
-        cntrServUsuario->cadastrarUsuario(nome, identificador, senha);
+        cntrServUsuario->cadastrarUsuario(cpf, senha);
     } catch(std::invalid_argument &e){
-        std::cout << std::endl << "Nao foi possivel cadastras usuario!" << std::endl;
+        std::cout << std::endl << "Nao foi possivel cadastrar usuario!" << std::endl;
         return;
     }
 
     std::cout << std::endl << "Usuario cadastrado com sucesso!" << std::endl;
 }
 
-void CntrAprUsuarios::executar(Identificador &identificador) {
+void CntrAprUsuarios::executar(Usuario& usuario) {
     int escolha;
     bool flag;
     std::string input;
     std::cout << "Sistema de Acomodacao - Servicos do usuario" << std::endl << std::endl;
 
-    std::cout << "1 - Editar usuario." << std::endl;
-    std::cout << "2 - Descadastrar usuario." << std::endl;
-    std::cout << "3 - Cadastrar cartao de credito." << std::endl;
-    std::cout << "4 - Descadastrar cartao de credito." << std::endl;
-    std::cout << "5 - Cadastrar conta corrente." << std::endl;
-    std::cout << "6 - Descadastrar conta corrente." << std::endl;
-    std::cout << "7 - Sair." << std::endl;
+    std::cout << "1 - Descadastrar usuario." << std::endl;
+    std::cout << "2 - Sair." << std::endl;
 
     std::cout << "Escolha a opcao: ";
 
@@ -68,30 +56,10 @@ void CntrAprUsuarios::executar(Identificador &identificador) {
 
     while (flag){
         switch (escolha) {
-            case OPCAO_EDITAR_USUARIO:
-                editar(identificador);
-                flag = false;
-                break;
             case OPCAO_DESCADASTRAR_USUARIO:
-                descadastrar(identificador);
+                descadastrar(usuario);
                 flag = false;
                 throw std::runtime_error("Usuario descadastrado");
-                break;
-            case OPCAO_CADASTRAR_CARTAO:
-                cadastrarCartaoCredito(identificador);
-                flag = false;
-                break;
-            case OPCAO_DESCADASTRAR_CARTAO:
-                descadastrarCartaoCredito(identificador);
-                flag = false;
-                break;
-            case OPCAO_CADASTRAR_CONTA:
-                cadastrarContaCorrente(identificador);
-                flag = false;
-                break;
-            case OPCAO_DESCADASTRAR_CONTA:
-                descadastrarContaCorrente(identificador);
-                flag = false;
                 break;
             case OPCAO_SAIR:
             default:
@@ -108,39 +76,7 @@ CntrAprUsuarios::~CntrAprUsuarios() {
      delete cntrServUsuario;
 }
 
-void CntrAprUsuarios::editar(Identificador &identificador) {
-
-    Cidade nome;
-    Senha senha;
-    Usuario usuario;
-    std::string input;
-
-
-    while(nome.getCidade() == "NomeNaoDefinido" || senha.getSenha() == "NaoDef1!" || identificador.getIdentificador() == "abcde") {
-        try {
-            std::cout << "Digite o seu nome         : ";
-            std::getline(std::cin, input);
-            nome.setCidade(input);
-
-            std::cout << "Digite a sua senha        : ";
-            std::getline(std::cin, input);
-            senha.setSenha(input);
-        } catch (std::invalid_argument &e) {
-            std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
-        }
-    }
-
-    try{
-        cntrServUsuario->editarUsuario(nome, senha, identificador);
-    } catch(std::invalid_argument &e){
-        std::cout << std::endl << "Nao foi possivel editar usuario!" << std::endl;
-        return;
-    }
-
-    std::cout << std::endl << "Usuario editado com sucesso!" << std::endl;
-}
-
-void CntrAprUsuarios::descadastrar(Identificador &identificador) {
+void CntrAprUsuarios::descadastrar(Usuario &usuario) {
     int escolha;
     bool flag;
     std::string input;
@@ -163,10 +99,10 @@ void CntrAprUsuarios::descadastrar(Identificador &identificador) {
                 return;
             case OPCAO_SIM:
                 try{
-                    cntrServUsuario->descadastrarUsuario(identificador);
+                    cntrServUsuario->descadastrarUsuario(usuario);
                     flag = false;
                 } catch(std::runtime_error &e){
-                    std::cout << std::endl << "Voce nao pode descadastrar enquanto houver pendencias!" << std::endl;
+                    std::cout << std::endl << "Voce nao pode descadastrar enquanto houver evento cadastrado!" << std::endl;
                     return;
                 }
                 break;
@@ -175,91 +111,5 @@ void CntrAprUsuarios::descadastrar(Identificador &identificador) {
     }
 
     std::cout << "Usuario descadastrado com sucesso" << std::endl;
-}
-void CntrAprUsuarios::cadastrarContaCorrente(Identificador &identificador) {
-    Num_Conta_Corrente numContaCorrente;
-    Agencia agencia;
-    Codigo_De_Evento banco;
-
-    std::string input;
-
-    try {
-        std::cout << "Digite o número da sua conta corrente: ";
-        std::getline(std::cin, input);
-        numContaCorrente.setNum_Conta_Corrente(input);
-        std::cout << "Digite o número da sua agencia: ";
-        std::getline(std::cin, input);
-        agencia.setAgenciaNum(input);
-        std::cout << "Digite o número de seu banco: ";
-        std::getline(std::cin, input);
-        banco.setCodigoEvento(input);
-        cntrServUsuario->cadastrarContaCorrente(identificador, numContaCorrente, agencia, banco);
-    } catch (std::exception &e){
-        return;
-    }
-
-
-
-    std::cout << "Conta corrente cadastrada com sucesso" << std::endl;
-}
-
-void CntrAprUsuarios::cadastrarCartaoCredito(Identificador &identificador) {
-    Num_Cartao_Credito numCartaoCredito;
-    Data_De_Validade dataDeValidade;
-
-    std::string input;
-    try {
-        std::cout << "Digite o número de seu cartao de credito: ";
-        std::getline(std::cin, input);
-        numCartaoCredito.setNum_Cartao(input);
-        std::cout << "Digite o número a data de validade de seu cartao de credito: ";
-        std::getline(std::cin, input);
-        dataDeValidade.setData_De_Validade(input);
-        cntrServUsuario->cadastrarCartaoCredito(identificador, numCartaoCredito, dataDeValidade);
-    } catch (std::exception &e){
-        return;
-    }
-
-
-
-    std::cout << "Cartao de credito cadastrado com sucesso" << std::endl;
-}
-
-void CntrAprUsuarios::descadastrarContaCorrente(Identificador &identificador) {
-    Num_Conta_Corrente numContaCorrente;
-
-    std::string input;
-
-    try {
-        std::cout << "DIgite o número da sua conta corrente: ";
-        std::getline(std::cin, input);
-        numContaCorrente.setNum_Conta_Corrente(input);
-        cntrServUsuario->descadastrarContaCorrente(numContaCorrente);
-    } catch (std::exception &e){
-        return;
-    }
-
-
-
-    std::cout << "Conta corrente descadastrada com sucesso" << std::endl;
-}
-
-void CntrAprUsuarios::descadastrarCartaoCredito(Identificador &identificador) {
-    Num_Cartao_Credito numCartaoCredito;
-
-    std::string input;
-
-    try {
-        std::cout << "DIgite o número do seu cartao de credito: ";
-        std::getline(std::cin, input);
-        numCartaoCredito.setNum_Cartao(input);
-        cntrServUsuario->descadastrarCartaoCredito(numCartaoCredito);
-    } catch (std::exception &e){
-        return;
-    }
-
-
-
-    std::cout << "Cartao de credito descadastrado com sucesso" << std::endl;
 }
 

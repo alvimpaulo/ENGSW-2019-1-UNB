@@ -10,7 +10,7 @@
 class CntrsServAutenticacao: public InterServAutenticacao{
 public:
     //autentica o usuario
-    void autenticar(const Identificador& identificador, const Senha& senha) override;
+    void autenticar(const Usuario& usuario) override;
 };
 
 

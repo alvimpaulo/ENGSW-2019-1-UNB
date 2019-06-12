@@ -149,8 +149,6 @@ add_executable(Trabalho_1_Clion
 		Headers/ComandoSQL/ComandoCadastrarContaCorrente.h
 		Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp
 		Headers/ComandoSQL/ComandoCadastrarCartaoCredito.h
-		Sources/ComandoSQL/ComandoEditarUsuario.cpp
-		Headers/ComandoSQL/ComandoEditarUsuario.h
 		Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp
 		Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h
 		Sources/ComandoSQL/ComandoChecarContaCorrente.cpp

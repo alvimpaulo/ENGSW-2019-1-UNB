@@ -7,13 +7,12 @@
 
 
 #include "ComandoSQL.h"
-#include "../Dominios/Identificador.h"
-#include "../Dominios/Senha.h"
+#include "../Entidades/Usuario.h"
 
 class ComandoAutenticar: public ComandoSQL{
 public:
-    std::string getSenha(Identificador identificador);
-};
+    std::string getSenha(const Usuario &usuario);
+};&
 
 
 #endif //TRABALHO_1_CLION_COMANDOAUTENTICAR_H

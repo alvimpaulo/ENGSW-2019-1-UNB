@@ -4,7 +4,7 @@
 
 #include "../../Headers/ComandoSQL/ComandoDescadastrarUsuario.h"
 
-void ComandoDescadastrarUsuario::descadastraUsuario(const Identificador &identificador) {
+void ComandoDescadastrarUsuario::descadastraUsuario(const Usuario& usuario) {
     listaResultado.clear();
     comandoSQL = ""
                  "DELETE FROM Usuarios WHERE Identificador = '" + identificador.getIdentificador() + "' AND NOT EXISTS (\n"

@@ -6,14 +6,14 @@
 #define TRABALHO_1_CLION_INTERAPRAUTENTICACAO_H
 
 
-#include "../../Dominios/Identificador.h"
+#include "../../Entidades/Usuario.h"
 #include "../Servico/InterServAutenticacao.h"
 
 class InterAprAutenticacao {
 private:
 protected:
 public:
-    virtual void autenticar(Identificador &identificador) = 0;
+    virtual void autenticar(Usuario& usuario) = 0;
     virtual void setCntrsServAutenticacao(InterServAutenticacao *cntrServAutenticacao) = 0;
 };
 

@@ -4,32 +4,32 @@
 
 #include <iostream>
 #include "../../../Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h"
-#include "../../../Headers/Dominios/Senha.h"
 
-void CntrAprAutenticacao::autenticar(Identificador &identificador){
-    Identificador   id;
-    Senha           senha;
+void CntrAprAutenticacao::autenticar(Usuario& usuario){
+    Cpf cpf;
+    Senha senha;
     std::string input;
     std::cout << "Autenticacao de usuário" << std::endl;
 
     try{
-        std::cout << "Digite o seu identificador: ";
+        std::cout << "Digite o seu cpf: ";
         std::getline(std::cin, input);
-        id.setIdentificador(input);
+        cpf.setCpf(input);
         std::cout << "Digite a sua senha        : ";
         std::getline(std::cin, input);
         senha.setSenha(input);
     } catch(std::invalid_argument &e){
-        throw std::invalid_argument("Nao foi possivel efetuar p login, pois os dados foram inseridos fora do formato");
+        throw std::invalid_argument("Nao foi possivel efetuar o login, pois os dados foram inseridos fora do formato");
     }
 
     try{
-        cntrServAutenticacao->autenticar(id, senha);
+        Usuario usuarioTeste;
+        usuarioTeste.setCpf(cpf);
+        usuarioTeste.setSenha(senha);
+        cntrServAutenticacao->autenticar(usuarioTeste);
     } catch(std::invalid_argument &e){
         throw std::invalid_argument("Nao foi possivel efetuar o login, verifique se os campos foram preenchidos adequadamente!");
     }
-
-    identificador = id;
 
     std::cout << std::endl << "Login efetuado com sucesso!" << std::endl;
 }

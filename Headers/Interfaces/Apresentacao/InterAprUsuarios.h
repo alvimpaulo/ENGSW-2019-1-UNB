@@ -16,7 +16,7 @@ private:
 protected:
 public:
     virtual void cadastrar() = 0;
-    virtual void executar(Identificador &identificador) = 0;
+    virtual void executar(Usuario& usuario) = 0;
     virtual void setCntrsServUsuarios(InterServUsuarios *cntrsServUsuarios) = 0;
 };
 

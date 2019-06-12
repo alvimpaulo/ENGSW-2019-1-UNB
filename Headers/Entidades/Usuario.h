@@ -33,7 +33,7 @@ public:
      * @brief Retorna o cpf atual do usuario.
      * @return Cpf a ser retornado
      */
-    Cpf getCpf(){
+    Cpf getCpf() const {
         return cpf;
     }
 
