@@ -10,7 +10,7 @@
 class InterServAutenticacao {
 public:
     //autentica o usuario
-    virtual void autenticar(const Identificador& identificador, const Senha& senha) = 0;
+    virtual void autenticar(const Usuario& usuario) = 0;
 };
 
 
