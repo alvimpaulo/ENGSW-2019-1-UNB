@@ -9,8 +9,7 @@ Controladoras:
 
 Interfaces:
     aprVendas
-
     ServVendas
 
-    ComandosSQL: TODOS
-    BANCO DE DADOS: TUDO
+ComandosSQL: TODOS
+BANCO DE DADOS: TUDO

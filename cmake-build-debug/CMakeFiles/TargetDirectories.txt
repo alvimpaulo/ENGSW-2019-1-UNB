@@ -1,0 +1,3 @@
+/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir
+/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles/edit_cache.dir
