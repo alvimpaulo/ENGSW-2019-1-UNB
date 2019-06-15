@@ -49,7 +49,7 @@ public:
      * @brief Retorna o data do evento.
      * @return Data contendo a data .
      */
-    Data getData(){
+    Data getData() const{
         return data;
     }
 
@@ -65,7 +65,7 @@ public:
      * @brief Retorna o horario do evento.
      * @return Horario contendo o horario .
      */
-    Horario getHorario(){
+    Horario getHorario() const {
         return horario;
     }
 
@@ -81,7 +81,7 @@ public:
      * @brief Retorna o preco do evento.
      * @return Preco contendo o preco .
      */
-    Preco getPreco(){
+    Preco getPreco() const {
         return preco;
     }
 
@@ -97,7 +97,7 @@ public:
      * @brief Retorna o numero de sala do evento.
      * @return Num_De_Sala contendo o numero de sala .
      */
-    Num_De_Sala getNumDeSala(){
+    Num_De_Sala getNumDeSala() const {
         return numDeSala;
     }
 
@@ -113,7 +113,7 @@ public:
      * @brief Retorna o disponibilidade do evento.
      * @return Disponibilidade contendo a disponibilidade .
      */
-    Disponibilidade getDisponibilidade(){
+    Disponibilidade getDisponibilidade() const {
         return disponibilidade;
     }
 

@@ -2,9 +2,9 @@
 // Created by paulo on 16-Nov-18.
 //
 
-#include "../../../Headers/Controladoras/Servico/CntrsServAcomodacao.h"
+#include "../../../Headers/Controladoras/Servico/CntrServAcomodacao.h"
 
-std::list<Acomodacao> CntrsServAcomodacao::pesquisar(const Data &dataInicio, const Data &dataTermino,
+std::list<Acomodacao> CntrServAcomodacao::pesquisar(const Data &dataInicio, const Data &dataTermino,
                                                      const Num_De_Sala &capacidadeDeAcomodacao,
                                                      const Cidade &cidade, const Estado &estado) {
     ComandoPesquisarAcomodacao sqlPesquisar(dataInicio, dataTermino, capacidadeDeAcomodacao, cidade, estado);
@@ -14,7 +14,7 @@ std::list<Acomodacao> CntrsServAcomodacao::pesquisar(const Data &dataInicio, con
 
 }
 
-void CntrsServAcomodacao::cadastrar(const Identificador &identificadorAcomodacao, const Tipo_Acomodacao &tipoAcomodacao,
+void CntrServAcomodacao::cadastrar(const Identificador &identificadorAcomodacao, const Tipo_Acomodacao &tipoAcomodacao,
                                     const Num_De_Sala &capacidadeDeAcomodacao, const Preco &diaria,
                                     const Cidade &cidade, const Estado &estado,
                                     const Identificador& identificadorUsuario) {
@@ -30,7 +30,7 @@ void CntrsServAcomodacao::cadastrar(const Identificador &identificadorAcomodacao
 
 }
 
-void CntrsServAcomodacao::cadastrarDisponibilidade(const Identificador &identificadorAcomodacao, const Data &dataInicio,
+void CntrServAcomodacao::cadastrarDisponibilidade(const Identificador &identificadorAcomodacao, const Data &dataInicio,
                                                    const Data &dataTermino, const Identificador &identificadorUsuario) {
     ComandoCadastrarDisponibilidadeAcomodacao sqlCadastrarDisponibilidade(identificadorAcomodacao, dataInicio, dataTermino, identificadorUsuario);
     //sqlCadastrarDisponibilidade.cadastrar();
@@ -38,7 +38,7 @@ void CntrsServAcomodacao::cadastrarDisponibilidade(const Identificador &identifi
 
 }
 
-void CntrsServAcomodacao::descadastrar(const Identificador &identificadorAcomodacao, const Identificador& identificadorUsuario) {
+void CntrServAcomodacao::descadastrar(const Identificador &identificadorAcomodacao, const Identificador& identificadorUsuario) {
 
     try {
         ComandoDescadastrarAcomodacao sqlDescadastrar(identificadorAcomodacao, identificadorUsuario);
@@ -50,7 +50,7 @@ void CntrsServAcomodacao::descadastrar(const Identificador &identificadorAcomoda
     std::cout << "Acomodacao descadastrada com sucesso" << std::endl;
 }
 
-void CntrsServAcomodacao::descadastrarDisponibilidade(const Identificador &identificadorAcomodacao,
+void CntrServAcomodacao::descadastrarDisponibilidade(const Identificador &identificadorAcomodacao,
                                                       const Identificador &identificadorUsuario,
                                                       const Data& dataInicio,
                                                       const Data& dataTermino) {

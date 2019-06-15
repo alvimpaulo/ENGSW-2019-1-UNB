@@ -6,9 +6,7 @@
 #define TRABALHO_1_CLION_INTERAPRUSUARIOS_H
 
 
-#include "../../Dominios/Identificador.h"
-#include "../Servico/InterServAcomodacao.h"
-#include "../../Controladoras/Servico/CntrsServUsuarios.h"
+#include "../../Controladoras/Servico/CntrServUsuarios.h"
 #include "../Servico/InterServUsuarios.h"
 
 class InterAprUsuarios {

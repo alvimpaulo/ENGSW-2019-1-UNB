@@ -98,14 +98,14 @@ add_executable(Trabalho_1_Clion
 		Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h
 		Sources/Controladoras/Apresentacao/CntrAprReserva.cpp
 		Headers/Controladoras/Apresentacao/CntrAprReserva.h
-		Sources/Controladoras/Servico/CntrsServAcomodacao.cpp
-		Headers/Controladoras/Servico/CntrsServAcomodacao.h
-		Sources/Controladoras/Servico/CntrsServUsuarios.cpp
-		Headers/Controladoras/Servico/CntrsServUsuarios.h
-		Sources/Controladoras/Servico/CntrsServReserva.cpp
-		Headers/Controladoras/Servico/CntrsServReserva.h
-		Sources/Controladoras/Servico/CntrsServAutenticacao.cpp
-		Headers/Controladoras/Servico/CntrsServAutenticacao.h
+		Sources/Controladoras/Servico/CntrServAcomodacao.cpp
+		Headers/Controladoras/Servico/CntrServAcomodacao.h
+		Sources/Controladoras/Servico/CntrServUsuarios.cpp
+		Headers/Controladoras/Servico/CntrServUsuarios.h
+		Sources/Controladoras/Servico/CntrServReserva.cpp
+		Headers/Controladoras/Servico/CntrServReserva.h
+		Sources/Controladoras/Servico/CntrServAutenticacao.cpp
+		Headers/Controladoras/Servico/CntrServAutenticacao.h
 
 		Headers/Interfaces/Apresentacao/InterAprAutenticacao.h
 		Headers/Interfaces/Servico/InterServAutenticacao.h
@@ -152,4 +152,4 @@ add_executable(Trabalho_1_Clion
 		Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp
 		Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h
 		Sources/ComandoSQL/ComandoChecarContaCorrente.cpp
-		Headers/ComandoSQL/ComandoChecarContaCorrente.h Sources/Dominios/Codigo_De_Apresentacao.cpp Headers/Dominios/Codigo_De_Apresentacao.h Sources/Dominios/Codigo_De_Ingresso.cpp Headers/Dominios/Codigo_De_Ingresso.h Sources/Dominios/Nome_De_Evento.cpp Headers/Dominios/Nome_De_Evento.h Sources/Dominios/Codigo_De_Seguranca.cpp Headers/Dominios/Codigo_De_Seguranca.h Sources/Dominios/Faixa_Etaria.cpp Headers/Dominios/Faixa_Etaria.h Sources/Dominios/Horario.cpp Headers/Dominios/Horario.h Sources/Dominios/Disponibilidade.cpp Headers/Dominios/Disponibilidade.h Sources/Dominios/Classe_De_Evento.cpp Headers/Dominios/Classe_De_Evento.h Sources/Dominios/Cpf.cpp Headers/Dominios/Cpf.h Sources/Entidades/Ingresso.cpp Headers/Entidades/Ingresso.h Sources/Entidades/Evento.cpp Headers/Entidades/Evento.h Sources/Entidades/Apresentacao.cpp Headers/Entidades/Apresentacao.h Headers/Interfaces/Apresentacao/InterAprEvento.h Headers/Interfaces/Servico/InterServEvento.h Headers/Interfaces/Servico/InterServVendas.h)
+		Headers/ComandoSQL/ComandoChecarContaCorrente.h Sources/Dominios/Codigo_De_Apresentacao.cpp Headers/Dominios/Codigo_De_Apresentacao.h Sources/Dominios/Codigo_De_Ingresso.cpp Headers/Dominios/Codigo_De_Ingresso.h Sources/Dominios/Nome_De_Evento.cpp Headers/Dominios/Nome_De_Evento.h Sources/Dominios/Codigo_De_Seguranca.cpp Headers/Dominios/Codigo_De_Seguranca.h Sources/Dominios/Faixa_Etaria.cpp Headers/Dominios/Faixa_Etaria.h Sources/Dominios/Horario.cpp Headers/Dominios/Horario.h Sources/Dominios/Disponibilidade.cpp Headers/Dominios/Disponibilidade.h Sources/Dominios/Classe_De_Evento.cpp Headers/Dominios/Classe_De_Evento.h Sources/Dominios/Cpf.cpp Headers/Dominios/Cpf.h Sources/Entidades/Ingresso.cpp Headers/Entidades/Ingresso.h Sources/Entidades/Evento.cpp Headers/Entidades/Evento.h Sources/Entidades/Apresentacao.cpp Headers/Entidades/Apresentacao.h Headers/Interfaces/Apresentacao/InterAprEvento.h Headers/Interfaces/Servico/InterServEvento.h Headers/Interfaces/Servico/InterServVendas.h Headers/Interfaces/Apresentacao/InterAprVendas.h Sources/Controladoras/Apresentacao/CntrAprEvento.cpp Headers/Controladoras/Apresentacao/CntrAprEvento.h Sources/Controladoras/Apresentacao/CntrAprVendas.cpp Headers/Controladoras/Apresentacao/CntrAprVendas.h Sources/Controladoras/Servico/CntrServVendas.cpp Headers/Controladoras/Servico/CntrServVendas.h Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp Headers/ComandoSQL/ComandoGetApresentacoesFromEvento.h Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp Headers/ComandoSQL/ComandoGetIngressosFromApresentacao.h Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp Headers/ComandoSQL/ComandoSolicitarInformacaoDeVendas.h Sources/ComandoSQL/ComandoComprarIngresso.cpp Headers/ComandoSQL/ComandoComprarIngresso.h Sources/Controladoras/Servico/cntrServEvento.cpp Headers/Controladoras/Servico/cntrServEvento.h Sources/ComandoSQL/ComandoCadastrarEvento.cpp Headers/ComandoSQL/ComandoCadastrarEvento.h)

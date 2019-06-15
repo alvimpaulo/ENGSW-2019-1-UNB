@@ -629,57 +629,57 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.s
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.o: ../Sources/Controladoras/Servico/CntrsServAcomodacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.o: ../Sources/Controladoras/Servico/CntrServAcomodacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServAcomodacao.cpp
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServAcomodacao.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.i
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServAcomodacao.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.s
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.o: ../Sources/Controladoras/Servico/CntrsServUsuarios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServUsuarios.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.o: ../Sources/Controladoras/Servico/CntrServUsuarios.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServUsuarios.cpp
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServUsuarios.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServUsuarios.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.i
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServUsuarios.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServUsuarios.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.s
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.o: ../Sources/Controladoras/Servico/CntrsServReserva.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServReserva.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.o: ../Sources/Controladoras/Servico/CntrServReserva.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServReserva.cpp
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServReserva.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.i
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServReserva.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.i
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServReserva.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.s
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServReserva.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.s
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.o: ../Sources/Controladoras/Servico/CntrsServAutenticacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.o: ../Sources/Controladoras/Servico/CntrServAutenticacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServAutenticacao.cpp
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServAutenticacao.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.i
 
-CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServAutenticacao.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.s
 
 CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.o: ../sqlite/sqlite3.c
@@ -1071,6 +1071,123 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Apresentacao.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Apresentacao.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Entidades/Apresentacao.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Apresentacao.cpp.s
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.o: ../Sources/Controladoras/Apresentacao/CntrAprEvento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.o: ../Sources/Controladoras/Apresentacao/CntrAprVendas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.o: ../Sources/Controladoras/Servico/CntrServVendas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServVendas.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServVendas.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/CntrServVendas.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.o: ../Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.o: ../Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o: ../Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.o: ../Sources/ComandoSQL/ComandoComprarIngresso.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoComprarIngresso.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoComprarIngresso.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoComprarIngresso.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.o: ../Sources/Controladoras/Servico/cntrServEvento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/cntrServEvento.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/cntrServEvento.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/Controladoras/Servico/cntrServEvento.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o: ../Sources/ComandoSQL/ComandoCadastrarEvento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoCadastrarEvento.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoCadastrarEvento.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoCadastrarEvento.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.s
+
 # Object files for target Trabalho_1_Clion
 Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/main.cpp.o" \
@@ -1117,10 +1234,10 @@ Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.o" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.o" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.o" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.o" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.o" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.o" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.o" \
 "CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.o" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.o" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.o" \
@@ -1150,7 +1267,16 @@ Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Cpf.cpp.o" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Ingresso.cpp.o" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Evento.cpp.o" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Apresentacao.cpp.o"
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Apresentacao.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o"
 
 # External object files for target Trabalho_1_Clion
 Trabalho_1_Clion_EXTERNAL_OBJECTS =
@@ -1199,10 +1325,10 @@ Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresent
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.o
-Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.o
-Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.o
-Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.o
-Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.o
@@ -1233,9 +1359,18 @@ Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Cpf.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Ingresso.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Evento.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Apresentacao.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/build.make
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking CXX executable Trabalho_1_Clion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking CXX executable Trabalho_1_Clion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Trabalho_1_Clion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

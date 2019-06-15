@@ -49,7 +49,7 @@ public:
      * @brief Retorna a senha (domínio) atual da conta corrente.
      * @return Senha (Domínio) a ser retornada.
      */
-    Senha getSenha(){
+    Senha getSenha() const {
         return senha;
     }
 

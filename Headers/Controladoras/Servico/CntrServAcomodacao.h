@@ -2,8 +2,8 @@
 // Created by paulo on 16-Nov-18.
 //
 
-#ifndef TRABALHO_1_CLION_CNTRSSERVACOMODACAO_H
-#define TRABALHO_1_CLION_CNTRSSERVACOMODACAO_H
+#ifndef TRABALHO_1_CLION_CNTRSERVACOMODACAO_H
+#define TRABALHO_1_CLION_CNTRSERVACOMODACAO_H
 
 #include "../../Interfaces/Servico/InterServAcomodacao.h"
 #include "../../ComandoSQL/ComandoPesquisarAcomodacao.h"
@@ -14,9 +14,9 @@
 #include "../../ComandoSQL/ComandoDescadastrarDisponibilidade.h"
 #include "../../ComandoSQL/ComandoChecarContaCorrente.h"
 
-class CntrsServAcomodacao: public  InterServAcomodacao{
+class CntrServAcomodacao: public  InterServAcomodacao{
 public:
-    CntrsServAcomodacao() = default;
+    CntrServAcomodacao() = default;
 
 
     //Retorna as acomodacoes que batem com a pesquisae_De
@@ -40,4 +40,4 @@ public:
 };
 
 
-#endif //TRABALHO_1_CLION_CNTRSSERVACOMODACAO_H
+#endif //TRABALHO_1_CLION_CNTRSERVACOMODACAO_H

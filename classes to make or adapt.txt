@@ -1,15 +1,21 @@
 Controladoras:
-    aprInicio
-    aprEvento
-    aprVendas
 
-    servInicio
+    aprEvento
+
     servEvento
     servVendas
 
-Interfaces:
-    aprVendas
-    ServVendas
+ComandosSQL:
+    Comando cadastrar Usuario
+    Comando Cadastrar evento
+    Comando editar evento
+    Comando descadastrar evento
+    Comando autenticar usuario
+    comando comprar ingresso
+    comando consultar evento
+    comando solicitar informacao de vendas
 
-ComandosSQL: TODOS
-BANCO DE DADOS: TUDO
+   Teste:
+   Todos os dominios
+   Todas as entidades
+   Todas as controladoras

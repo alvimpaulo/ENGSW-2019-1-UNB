@@ -1,0 +1,1 @@
+Insert into Ingressos (Codigo, Usuario, Apresentacao) values ("00005", "000.000.000-02", "0001")

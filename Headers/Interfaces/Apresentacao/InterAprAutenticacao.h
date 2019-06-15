@@ -13,7 +13,7 @@ class InterAprAutenticacao {
 private:
 protected:
 public:
-    virtual void autenticar(Usuario& usuario) = 0;
+    virtual Usuario autenticar() = 0;
     virtual void setCntrsServAutenticacao(InterServAutenticacao *cntrServAutenticacao) = 0;
 };
 

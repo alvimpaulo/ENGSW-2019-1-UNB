@@ -6,7 +6,7 @@
 #define TRABALHO_1_CLION_COMANDOPESQUISARACOMODACAO_H
 
 #include "ComandoSQL.h"
-#include "../Controladoras/Servico/CntrsServAcomodacao.h"
+#include "../Controladoras/Servico/CntrServAcomodacao.h"
 class ComandoPesquisarAcomodacao : public ComandoSQL {
 public:
     ComandoPesquisarAcomodacao(const Data& dataInicio, const Data& dataTermino, const Num_De_Sala& capacidadeDeAcomodacao, const Cidade& cidade, const Estado& estado);

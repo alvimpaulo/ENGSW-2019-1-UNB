@@ -5,7 +5,8 @@
 #include <iostream>
 #include "../../../Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h"
 
-void CntrAprAutenticacao::autenticar(Usuario& usuario){
+Usuario CntrAprAutenticacao::autenticar() {
+    Usuario usuarioTeste;
     Cpf cpf;
     Senha senha;
     std::string input;
@@ -23,7 +24,7 @@ void CntrAprAutenticacao::autenticar(Usuario& usuario){
     }
 
     try{
-        Usuario usuarioTeste;
+
         usuarioTeste.setCpf(cpf);
         usuarioTeste.setSenha(senha);
         cntrServAutenticacao->autenticar(usuarioTeste);
@@ -32,6 +33,9 @@ void CntrAprAutenticacao::autenticar(Usuario& usuario){
     }
 
     std::cout << std::endl << "Login efetuado com sucesso!" << std::endl;
+
+    return usuarioTeste;
+
 }
 
 void CntrAprAutenticacao::setCntrsServAutenticacao(InterServAutenticacao *cntrServAutenticacao){

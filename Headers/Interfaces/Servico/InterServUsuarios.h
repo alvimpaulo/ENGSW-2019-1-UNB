@@ -6,12 +6,13 @@
 #define TRABALHO_1_CLION_INTERSERVUSUARIOS_H
 
 #include "../../Entidades/Usuario.h"
+#include "../../Entidades/Cartao_De_Credito.h"
 
 
 class InterServUsuarios{
 public:
     //cadastra um usuario no sistema
-    virtual void cadastrarUsuario(const Cpf& cpf, const Senha& senha) = 0;
+    virtual void cadastrarUsuario(const Usuario& usuario, const Cartao_De_Credito& cartaoDeCredito) = 0;
 
     //Descadastra um usuario, se for possivel
     virtual void descadastrarUsuario(const Usuario& usuario) = 0;

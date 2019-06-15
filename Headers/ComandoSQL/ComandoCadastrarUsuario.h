@@ -7,11 +7,12 @@
 
 
 #include "../Entidades/Usuario.h"
+#include "../Entidades/Cartao_De_Credito.h"
 #include "ComandoSQL.h"
 
 class ComandoCadastrarUsuario: public ComandoSQL{
 public:
-    void cadastrarUsuario(const Cpf& cpf, const Senha& senha);
+    void cadastrarUsuario(const Usuario& usuario, const Cartao_De_Credito& cartaoDeCredito);
 };
 
 

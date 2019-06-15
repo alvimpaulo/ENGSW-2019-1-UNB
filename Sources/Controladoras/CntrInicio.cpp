@@ -5,7 +5,6 @@
 #include "../../Headers/Controladoras/CntrInicio.h"
 
 void CntrInicio::iniciar() {
-    Identificador id;
     int res;
     std::string input;
     std::string errorMsg;
@@ -20,8 +19,7 @@ void CntrInicio::iniciar() {
         res = std::stoi(input);
         if (res == 1) {
             try {
-                cntrAprAutenticacao->autenticar(id);
-                this->usuario->setIdentificador(id);
+                this->usuario = cntrAprAutenticacao->autenticar();
             }
             catch (std::exception &e) {
                 std::cout << e.what() << std::endl;
@@ -44,8 +42,8 @@ void CntrInicio::iniciar() {
         while (!sair) {
 
             std::cout << "1 - Gerenciar Usuario." << std::endl;
-            std::cout << "2 - Gerenciar Reservas." << std::endl;
-            std::cout << "3 - Gerenciar Acomodacoes." << std::endl;
+            std::cout << "2 - Gerenciar Eventos." << std::endl;
+            std::cout << "3 - Gerenciar Vendas." << std::endl;
             std::cout << "4 - Sair." << std::endl << std::endl;
             std::cout << "Escolha a opcao: ";
 
@@ -54,7 +52,7 @@ void CntrInicio::iniciar() {
 
             if (res == 1) {
                 try {
-                    cntrAprUsuarios->executar(id);
+                    cntrAprUsuarios->executar(usuario);
                 } catch (std::runtime_error &error){
                     if(std::strcmp(error.what(), "Usuario descadastrado") == 0){
                         std::cout << "O usuario foi descadastrado com sucesso" << std::endl;
@@ -67,15 +65,15 @@ void CntrInicio::iniciar() {
                 }
             } else if (res == 2) {
                 try {
-                    cntrAprReserva->executar(id);
+                    cntrAprEvento->executar(usuario);
                 } catch (std::exception &exception) {
-                    std::cout << "nao foi gerenciar reservas motivo: " << exception.what() << std::endl;
+                    std::cout << "nao foi possivel gerenciar eventos motivo: " << exception.what() << std::endl;
                 }
             } else if (res == 3) {
                 try {
-                    cntrAprAcomodacao->executar(id);
+                    cntrAprVendas->executar(usuario);
                 } catch (std::exception &exception) {
-                    std::cout << "nao foi gerenciar acomodacoes motivo: " << exception.what() << std::endl;
+                    std::cout << "nao foi possivel gerenciar vendas motivo: " << exception.what() << std::endl;
                     continue;
                 }
             } else if (res == 4) {
@@ -86,15 +84,11 @@ void CntrInicio::iniciar() {
     }
 }
 
-CntrInicio::CntrInicio(InterAprReserva *cntrAprReserva, InterAprAutenticacao *cntrAprAutenticacao,
-                       InterAprAcomodacao *cntrAprAcomodacao, InterAprUsuarios *cntrAprUsuarios)
-        : cntrAprReserva(cntrAprReserva), cntrAprAutenticacao(cntrAprAutenticacao),
-          cntrAprAcomodacao(cntrAprAcomodacao), cntrAprUsuarios(cntrAprUsuarios) {
-    usuario = new Usuario();
+CntrInicio::CntrInicio(InterAprEvento *cntrAprEvento, InterAprAutenticacao *cntrAprAutenticacao,
+                       InterAprVendas *cntrAprVendas, InterAprUsuarios *cntrAprUsuarios)
+        : cntrAprEvento(cntrAprEvento), cntrAprAutenticacao(cntrAprAutenticacao),
+          cntrAprVendas(cntrAprVendas), cntrAprUsuarios(cntrAprUsuarios) {
 
 }
 
-CntrInicio::~CntrInicio(){
-    delete usuario;
-
-}
+CntrInicio::~CntrInicio()= default;

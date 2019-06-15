@@ -258,6 +258,33 @@ Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s
 
+Sources/ComandoSQL/ComandoCadastrarEvento.o: Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarEvento.o
+
+# target to build an object file
+Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o
+.PHONY : Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o
+
+Sources/ComandoSQL/ComandoCadastrarEvento.i: Sources/ComandoSQL/ComandoCadastrarEvento.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarEvento.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoCadastrarEvento.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoCadastrarEvento.cpp.i
+
+Sources/ComandoSQL/ComandoCadastrarEvento.s: Sources/ComandoSQL/ComandoCadastrarEvento.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarEvento.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoCadastrarEvento.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoCadastrarEvento.cpp.s
+
 Sources/ComandoSQL/ComandoCadastrarUsuario.o: Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.o
 
 .PHONY : Sources/ComandoSQL/ComandoCadastrarUsuario.o
@@ -338,6 +365,33 @@ Sources/ComandoSQL/ComandoChecarContaCorrente.s: Sources/ComandoSQL/ComandoCheca
 Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.s
+
+Sources/ComandoSQL/ComandoComprarIngresso.o: Sources/ComandoSQL/ComandoComprarIngresso.cpp.o
+
+.PHONY : Sources/ComandoSQL/ComandoComprarIngresso.o
+
+# target to build an object file
+Sources/ComandoSQL/ComandoComprarIngresso.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.o
+.PHONY : Sources/ComandoSQL/ComandoComprarIngresso.cpp.o
+
+Sources/ComandoSQL/ComandoComprarIngresso.i: Sources/ComandoSQL/ComandoComprarIngresso.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoComprarIngresso.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoComprarIngresso.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoComprarIngresso.cpp.i
+
+Sources/ComandoSQL/ComandoComprarIngresso.s: Sources/ComandoSQL/ComandoComprarIngresso.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoComprarIngresso.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoComprarIngresso.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoComprarIngresso.cpp.s
 
 Sources/ComandoSQL/ComandoDescadastrarAcomodacao.o: Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.o
 
@@ -501,6 +555,60 @@ Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s
 
+Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.o: Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.o
+
+.PHONY : Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.o
+
+# target to build an object file
+Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.o
+.PHONY : Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.o
+
+Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.i: Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.i
+
+Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.s: Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.cpp.s
+
+Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.o: Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.o
+
+.PHONY : Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.o
+
+# target to build an object file
+Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.o
+.PHONY : Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.o
+
+Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.i: Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.i
+
+Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.s: Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp.s
+
 Sources/ComandoSQL/ComandoPesquisarAcomodacao.o: Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.o
 
 .PHONY : Sources/ComandoSQL/ComandoPesquisarAcomodacao.o
@@ -582,6 +690,33 @@ Sources/ComandoSQL/ComandoSQL.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoSQL.cpp.s
 
+Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.o: Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o
+
+.PHONY : Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.o
+
+# target to build an object file
+Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o
+.PHONY : Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o
+
+Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.i: Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.i
+
+Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.s: Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.s
+
 Sources/Controladoras/Apresentacao/CntrAprAcomodacao.o: Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.o
 
 .PHONY : Sources/Controladoras/Apresentacao/CntrAprAcomodacao.o
@@ -635,6 +770,33 @@ Sources/Controladoras/Apresentacao/CntrAprAutenticacao.s: Sources/Controladoras/
 Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.s
 .PHONY : Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.s
+
+Sources/Controladoras/Apresentacao/CntrAprEvento.o: Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.o
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprEvento.o
+
+# target to build an object file
+Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.o
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.o
+
+Sources/Controladoras/Apresentacao/CntrAprEvento.i: Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.i
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprEvento.i
+
+# target to preprocess a source file
+Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.i
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.i
+
+Sources/Controladoras/Apresentacao/CntrAprEvento.s: Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.s
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprEvento.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.s
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprEvento.cpp.s
 
 Sources/Controladoras/Apresentacao/CntrAprReserva.o: Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.o
 
@@ -690,6 +852,33 @@ Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.s
 .PHONY : Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.s
 
+Sources/Controladoras/Apresentacao/CntrAprVendas.o: Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.o
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprVendas.o
+
+# target to build an object file
+Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.o
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.o
+
+Sources/Controladoras/Apresentacao/CntrAprVendas.i: Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.i
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprVendas.i
+
+# target to preprocess a source file
+Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.i
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.i
+
+Sources/Controladoras/Apresentacao/CntrAprVendas.s: Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.s
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprVendas.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.s
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprVendas.cpp.s
+
 Sources/Controladoras/CntrInicio.o: Sources/Controladoras/CntrInicio.cpp.o
 
 .PHONY : Sources/Controladoras/CntrInicio.o
@@ -717,113 +906,167 @@ Sources/Controladoras/CntrInicio.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.s
 .PHONY : Sources/Controladoras/CntrInicio.cpp.s
 
-Sources/Controladoras/Servico/CntrsServAcomodacao.o: Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.o
+Sources/Controladoras/Servico/CntrServAcomodacao.o: Sources/Controladoras/Servico/CntrServAcomodacao.cpp.o
 
-.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.o
-
-# target to build an object file
-Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.o:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.o
-.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.o
-
-Sources/Controladoras/Servico/CntrsServAcomodacao.i: Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i
-
-.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.i
-
-# target to preprocess a source file
-Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i
-.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i
-
-Sources/Controladoras/Servico/CntrsServAcomodacao.s: Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s
-
-.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.s
-
-# target to generate assembly for a file
-Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s
-.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s
-
-Sources/Controladoras/Servico/CntrsServAutenticacao.o: Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.o
-
-.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.o
+.PHONY : Sources/Controladoras/Servico/CntrServAcomodacao.o
 
 # target to build an object file
-Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.o:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.o
-.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.o
+Sources/Controladoras/Servico/CntrServAcomodacao.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.o
+.PHONY : Sources/Controladoras/Servico/CntrServAcomodacao.cpp.o
 
-Sources/Controladoras/Servico/CntrsServAutenticacao.i: Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i
+Sources/Controladoras/Servico/CntrServAcomodacao.i: Sources/Controladoras/Servico/CntrServAcomodacao.cpp.i
 
-.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.i
+.PHONY : Sources/Controladoras/Servico/CntrServAcomodacao.i
 
 # target to preprocess a source file
-Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i
-.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i
+Sources/Controladoras/Servico/CntrServAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.i
+.PHONY : Sources/Controladoras/Servico/CntrServAcomodacao.cpp.i
 
-Sources/Controladoras/Servico/CntrsServAutenticacao.s: Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s
+Sources/Controladoras/Servico/CntrServAcomodacao.s: Sources/Controladoras/Servico/CntrServAcomodacao.cpp.s
 
-.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.s
+.PHONY : Sources/Controladoras/Servico/CntrServAcomodacao.s
 
 # target to generate assembly for a file
-Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s
-.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s
+Sources/Controladoras/Servico/CntrServAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAcomodacao.cpp.s
+.PHONY : Sources/Controladoras/Servico/CntrServAcomodacao.cpp.s
 
-Sources/Controladoras/Servico/CntrsServReserva.o: Sources/Controladoras/Servico/CntrsServReserva.cpp.o
+Sources/Controladoras/Servico/CntrServAutenticacao.o: Sources/Controladoras/Servico/CntrServAutenticacao.cpp.o
 
-.PHONY : Sources/Controladoras/Servico/CntrsServReserva.o
+.PHONY : Sources/Controladoras/Servico/CntrServAutenticacao.o
 
 # target to build an object file
-Sources/Controladoras/Servico/CntrsServReserva.cpp.o:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.o
-.PHONY : Sources/Controladoras/Servico/CntrsServReserva.cpp.o
+Sources/Controladoras/Servico/CntrServAutenticacao.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.o
+.PHONY : Sources/Controladoras/Servico/CntrServAutenticacao.cpp.o
 
-Sources/Controladoras/Servico/CntrsServReserva.i: Sources/Controladoras/Servico/CntrsServReserva.cpp.i
+Sources/Controladoras/Servico/CntrServAutenticacao.i: Sources/Controladoras/Servico/CntrServAutenticacao.cpp.i
 
-.PHONY : Sources/Controladoras/Servico/CntrsServReserva.i
+.PHONY : Sources/Controladoras/Servico/CntrServAutenticacao.i
 
 # target to preprocess a source file
-Sources/Controladoras/Servico/CntrsServReserva.cpp.i:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.i
-.PHONY : Sources/Controladoras/Servico/CntrsServReserva.cpp.i
+Sources/Controladoras/Servico/CntrServAutenticacao.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.i
+.PHONY : Sources/Controladoras/Servico/CntrServAutenticacao.cpp.i
 
-Sources/Controladoras/Servico/CntrsServReserva.s: Sources/Controladoras/Servico/CntrsServReserva.cpp.s
+Sources/Controladoras/Servico/CntrServAutenticacao.s: Sources/Controladoras/Servico/CntrServAutenticacao.cpp.s
 
-.PHONY : Sources/Controladoras/Servico/CntrsServReserva.s
+.PHONY : Sources/Controladoras/Servico/CntrServAutenticacao.s
 
 # target to generate assembly for a file
-Sources/Controladoras/Servico/CntrsServReserva.cpp.s:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.s
-.PHONY : Sources/Controladoras/Servico/CntrsServReserva.cpp.s
+Sources/Controladoras/Servico/CntrServAutenticacao.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServAutenticacao.cpp.s
+.PHONY : Sources/Controladoras/Servico/CntrServAutenticacao.cpp.s
 
-Sources/Controladoras/Servico/CntrsServUsuarios.o: Sources/Controladoras/Servico/CntrsServUsuarios.cpp.o
+Sources/Controladoras/Servico/CntrServReserva.o: Sources/Controladoras/Servico/CntrServReserva.cpp.o
 
-.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.o
+.PHONY : Sources/Controladoras/Servico/CntrServReserva.o
 
 # target to build an object file
-Sources/Controladoras/Servico/CntrsServUsuarios.cpp.o:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.o
-.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.cpp.o
+Sources/Controladoras/Servico/CntrServReserva.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.o
+.PHONY : Sources/Controladoras/Servico/CntrServReserva.cpp.o
 
-Sources/Controladoras/Servico/CntrsServUsuarios.i: Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i
+Sources/Controladoras/Servico/CntrServReserva.i: Sources/Controladoras/Servico/CntrServReserva.cpp.i
 
-.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.i
+.PHONY : Sources/Controladoras/Servico/CntrServReserva.i
 
 # target to preprocess a source file
-Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i
-.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i
+Sources/Controladoras/Servico/CntrServReserva.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.i
+.PHONY : Sources/Controladoras/Servico/CntrServReserva.cpp.i
 
-Sources/Controladoras/Servico/CntrsServUsuarios.s: Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s
+Sources/Controladoras/Servico/CntrServReserva.s: Sources/Controladoras/Servico/CntrServReserva.cpp.s
 
-.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.s
+.PHONY : Sources/Controladoras/Servico/CntrServReserva.s
 
 # target to generate assembly for a file
-Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s:
-	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s
-.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s
+Sources/Controladoras/Servico/CntrServReserva.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServReserva.cpp.s
+.PHONY : Sources/Controladoras/Servico/CntrServReserva.cpp.s
+
+Sources/Controladoras/Servico/CntrServUsuarios.o: Sources/Controladoras/Servico/CntrServUsuarios.cpp.o
+
+.PHONY : Sources/Controladoras/Servico/CntrServUsuarios.o
+
+# target to build an object file
+Sources/Controladoras/Servico/CntrServUsuarios.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.o
+.PHONY : Sources/Controladoras/Servico/CntrServUsuarios.cpp.o
+
+Sources/Controladoras/Servico/CntrServUsuarios.i: Sources/Controladoras/Servico/CntrServUsuarios.cpp.i
+
+.PHONY : Sources/Controladoras/Servico/CntrServUsuarios.i
+
+# target to preprocess a source file
+Sources/Controladoras/Servico/CntrServUsuarios.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.i
+.PHONY : Sources/Controladoras/Servico/CntrServUsuarios.cpp.i
+
+Sources/Controladoras/Servico/CntrServUsuarios.s: Sources/Controladoras/Servico/CntrServUsuarios.cpp.s
+
+.PHONY : Sources/Controladoras/Servico/CntrServUsuarios.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Servico/CntrServUsuarios.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServUsuarios.cpp.s
+.PHONY : Sources/Controladoras/Servico/CntrServUsuarios.cpp.s
+
+Sources/Controladoras/Servico/CntrServVendas.o: Sources/Controladoras/Servico/CntrServVendas.cpp.o
+
+.PHONY : Sources/Controladoras/Servico/CntrServVendas.o
+
+# target to build an object file
+Sources/Controladoras/Servico/CntrServVendas.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.o
+.PHONY : Sources/Controladoras/Servico/CntrServVendas.cpp.o
+
+Sources/Controladoras/Servico/CntrServVendas.i: Sources/Controladoras/Servico/CntrServVendas.cpp.i
+
+.PHONY : Sources/Controladoras/Servico/CntrServVendas.i
+
+# target to preprocess a source file
+Sources/Controladoras/Servico/CntrServVendas.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.i
+.PHONY : Sources/Controladoras/Servico/CntrServVendas.cpp.i
+
+Sources/Controladoras/Servico/CntrServVendas.s: Sources/Controladoras/Servico/CntrServVendas.cpp.s
+
+.PHONY : Sources/Controladoras/Servico/CntrServVendas.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Servico/CntrServVendas.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrServVendas.cpp.s
+.PHONY : Sources/Controladoras/Servico/CntrServVendas.cpp.s
+
+Sources/Controladoras/Servico/cntrServEvento.o: Sources/Controladoras/Servico/cntrServEvento.cpp.o
+
+.PHONY : Sources/Controladoras/Servico/cntrServEvento.o
+
+# target to build an object file
+Sources/Controladoras/Servico/cntrServEvento.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.o
+.PHONY : Sources/Controladoras/Servico/cntrServEvento.cpp.o
+
+Sources/Controladoras/Servico/cntrServEvento.i: Sources/Controladoras/Servico/cntrServEvento.cpp.i
+
+.PHONY : Sources/Controladoras/Servico/cntrServEvento.i
+
+# target to preprocess a source file
+Sources/Controladoras/Servico/cntrServEvento.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.i
+.PHONY : Sources/Controladoras/Servico/cntrServEvento.cpp.i
+
+Sources/Controladoras/Servico/cntrServEvento.s: Sources/Controladoras/Servico/cntrServEvento.cpp.s
+
+.PHONY : Sources/Controladoras/Servico/cntrServEvento.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Servico/cntrServEvento.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.s
+.PHONY : Sources/Controladoras/Servico/cntrServEvento.cpp.s
 
 Sources/Dominios/Agencia.o: Sources/Dominios/Agencia.cpp.o
 
@@ -2253,6 +2496,9 @@ help:
 	@echo "... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.o"
 	@echo "... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.i"
 	@echo "... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.s"
+	@echo "... Sources/ComandoSQL/ComandoCadastrarEvento.o"
+	@echo "... Sources/ComandoSQL/ComandoCadastrarEvento.i"
+	@echo "... Sources/ComandoSQL/ComandoCadastrarEvento.s"
 	@echo "... Sources/ComandoSQL/ComandoCadastrarUsuario.o"
 	@echo "... Sources/ComandoSQL/ComandoCadastrarUsuario.i"
 	@echo "... Sources/ComandoSQL/ComandoCadastrarUsuario.s"
@@ -2262,6 +2508,9 @@ help:
 	@echo "... Sources/ComandoSQL/ComandoChecarContaCorrente.o"
 	@echo "... Sources/ComandoSQL/ComandoChecarContaCorrente.i"
 	@echo "... Sources/ComandoSQL/ComandoChecarContaCorrente.s"
+	@echo "... Sources/ComandoSQL/ComandoComprarIngresso.o"
+	@echo "... Sources/ComandoSQL/ComandoComprarIngresso.i"
+	@echo "... Sources/ComandoSQL/ComandoComprarIngresso.s"
 	@echo "... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.o"
 	@echo "... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.i"
 	@echo "... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.s"
@@ -2280,6 +2529,12 @@ help:
 	@echo "... Sources/ComandoSQL/ComandoEditarAcomodacao.o"
 	@echo "... Sources/ComandoSQL/ComandoEditarAcomodacao.i"
 	@echo "... Sources/ComandoSQL/ComandoEditarAcomodacao.s"
+	@echo "... Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.o"
+	@echo "... Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.i"
+	@echo "... Sources/ComandoSQL/ComandoGetApresentacoesFromEvento.s"
+	@echo "... Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.o"
+	@echo "... Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.i"
+	@echo "... Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.s"
 	@echo "... Sources/ComandoSQL/ComandoPesquisarAcomodacao.o"
 	@echo "... Sources/ComandoSQL/ComandoPesquisarAcomodacao.i"
 	@echo "... Sources/ComandoSQL/ComandoPesquisarAcomodacao.s"
@@ -2289,33 +2544,48 @@ help:
 	@echo "... Sources/ComandoSQL/ComandoSQL.o"
 	@echo "... Sources/ComandoSQL/ComandoSQL.i"
 	@echo "... Sources/ComandoSQL/ComandoSQL.s"
+	@echo "... Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.o"
+	@echo "... Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.i"
+	@echo "... Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.s"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprAcomodacao.o"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprAcomodacao.i"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprAcomodacao.s"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprAutenticacao.o"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprAutenticacao.i"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprAutenticacao.s"
+	@echo "... Sources/Controladoras/Apresentacao/CntrAprEvento.o"
+	@echo "... Sources/Controladoras/Apresentacao/CntrAprEvento.i"
+	@echo "... Sources/Controladoras/Apresentacao/CntrAprEvento.s"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprReserva.o"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprReserva.i"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprReserva.s"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprUsuarios.o"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprUsuarios.i"
 	@echo "... Sources/Controladoras/Apresentacao/CntrAprUsuarios.s"
+	@echo "... Sources/Controladoras/Apresentacao/CntrAprVendas.o"
+	@echo "... Sources/Controladoras/Apresentacao/CntrAprVendas.i"
+	@echo "... Sources/Controladoras/Apresentacao/CntrAprVendas.s"
 	@echo "... Sources/Controladoras/CntrInicio.o"
 	@echo "... Sources/Controladoras/CntrInicio.i"
 	@echo "... Sources/Controladoras/CntrInicio.s"
-	@echo "... Sources/Controladoras/Servico/CntrsServAcomodacao.o"
-	@echo "... Sources/Controladoras/Servico/CntrsServAcomodacao.i"
-	@echo "... Sources/Controladoras/Servico/CntrsServAcomodacao.s"
-	@echo "... Sources/Controladoras/Servico/CntrsServAutenticacao.o"
-	@echo "... Sources/Controladoras/Servico/CntrsServAutenticacao.i"
-	@echo "... Sources/Controladoras/Servico/CntrsServAutenticacao.s"
-	@echo "... Sources/Controladoras/Servico/CntrsServReserva.o"
-	@echo "... Sources/Controladoras/Servico/CntrsServReserva.i"
-	@echo "... Sources/Controladoras/Servico/CntrsServReserva.s"
-	@echo "... Sources/Controladoras/Servico/CntrsServUsuarios.o"
-	@echo "... Sources/Controladoras/Servico/CntrsServUsuarios.i"
-	@echo "... Sources/Controladoras/Servico/CntrsServUsuarios.s"
+	@echo "... Sources/Controladoras/Servico/CntrServAcomodacao.o"
+	@echo "... Sources/Controladoras/Servico/CntrServAcomodacao.i"
+	@echo "... Sources/Controladoras/Servico/CntrServAcomodacao.s"
+	@echo "... Sources/Controladoras/Servico/CntrServAutenticacao.o"
+	@echo "... Sources/Controladoras/Servico/CntrServAutenticacao.i"
+	@echo "... Sources/Controladoras/Servico/CntrServAutenticacao.s"
+	@echo "... Sources/Controladoras/Servico/CntrServReserva.o"
+	@echo "... Sources/Controladoras/Servico/CntrServReserva.i"
+	@echo "... Sources/Controladoras/Servico/CntrServReserva.s"
+	@echo "... Sources/Controladoras/Servico/CntrServUsuarios.o"
+	@echo "... Sources/Controladoras/Servico/CntrServUsuarios.i"
+	@echo "... Sources/Controladoras/Servico/CntrServUsuarios.s"
+	@echo "... Sources/Controladoras/Servico/CntrServVendas.o"
+	@echo "... Sources/Controladoras/Servico/CntrServVendas.i"
+	@echo "... Sources/Controladoras/Servico/CntrServVendas.s"
+	@echo "... Sources/Controladoras/Servico/cntrServEvento.o"
+	@echo "... Sources/Controladoras/Servico/cntrServEvento.i"
+	@echo "... Sources/Controladoras/Servico/cntrServEvento.s"
 	@echo "... Sources/Dominios/Agencia.o"
 	@echo "... Sources/Dominios/Agencia.i"
 	@echo "... Sources/Dominios/Agencia.s"

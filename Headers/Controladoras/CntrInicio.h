@@ -6,38 +6,39 @@
 #define TRABALHO_1_CLION_CNTRINICIO_H
 
 #include "../Interfaces/Apresentacao/InterAprAutenticacao.h"
-#include "../Interfaces/Apresentacao/InterAprReserva.h"
-#include "../Interfaces/Apresentacao/InterAprAcomodacao.h"
 #include "../Interfaces/Apresentacao/InterAprUsuarios.h"
+#include "../Interfaces/Apresentacao/InterAprVendas.h"
+#include "../Interfaces/Apresentacao/InterAprEvento.h"
+
 
 class CntrInicio {
 public:
-    CntrInicio(InterAprReserva *cntrAprReserva, InterAprAutenticacao *cntrAprAutenticacao,
-                   InterAprAcomodacao *cntrAprAcomodacao, InterAprUsuarios *cntrAprUsuarios);
+    CntrInicio(InterAprEvento* cntrAprEvento, InterAprAutenticacao *cntrAprAutenticacao,
+               InterAprVendas* cntrAprVendas, InterAprUsuarios *cntrAprUsuarios);
 
     void iniciar();
 
-    void setCntrAprReserva(InterAprReserva *cntrAprReserva){
-        this->cntrAprReserva = cntrAprReserva;
+    void setCntrAprEvento(InterAprEvento *cntrAprEvento){
+        this->cntrAprEvento = cntrAprEvento;
     }
 
     void setCntrAprAutenticacao(InterAprAutenticacao *cntrAprAutenticacao){
         this->cntrAprAutenticacao = cntrAprAutenticacao;
     }
 
-    void setCntrAprAcomodacao(InterAprAcomodacao *cntrAprAcomodacao){
-        this->cntrAprAcomodacao = cntrAprAcomodacao;
+    void setCntrAprVendas(InterAprVendas *cntrAprVendas){
+        this->cntrAprVendas = cntrAprVendas;
     }
 
     void setCntrAprUsuarios(InterAprUsuarios *cntrAprUsuarios){
         this->cntrAprUsuarios = cntrAprUsuarios;
     }
 
-    void setUsuario(Usuario *usuario){
+    void setUsuario(Usuario usuario){
         this->usuario = usuario;
     }
 
-    Usuario* getUsuario(){
+    Usuario getUsuario(){
         return this->usuario;
     }
 
@@ -45,11 +46,11 @@ public:
 
 
 private:
-    InterAprReserva *cntrAprReserva;
+    InterAprEvento *cntrAprEvento;
     InterAprAutenticacao *cntrAprAutenticacao;
-    InterAprAcomodacao *cntrAprAcomodacao;
+    InterAprVendas *cntrAprVendas;
     InterAprUsuarios *cntrAprUsuarios;
-    Usuario *usuario;
+    Usuario usuario;
 
 
 };

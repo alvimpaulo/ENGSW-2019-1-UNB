@@ -8,7 +8,7 @@
 
 #include "../../Interfaces/Servico/InterServUsuarios.h"
 #include "../../Interfaces/Apresentacao/InterAprUsuarios.h"
-#include "../Servico/CntrsServUsuarios.h"
+#include "../Servico/CntrServUsuarios.h"
 
 class CntrAprUsuarios: public InterAprUsuarios{
 private:
