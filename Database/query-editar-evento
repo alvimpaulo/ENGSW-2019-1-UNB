@@ -1,0 +1,8 @@
+UPDATE Eventos
+   SET Nome = 'nome',
+       Cidade = 'cidade',
+       Estado = 'estado',
+       Classe = 'classe',
+       Faixa = 'faixa'
+ WHERE Codigo = "000" AND 
+       Usuario = "000.000.000-09";

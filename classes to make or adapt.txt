@@ -1,19 +1,15 @@
 Controladoras:
 
-    aprEvento
-
-    servEvento
-    servVendas
 
 ComandosSQL:
-    Comando cadastrar Usuario
-    Comando Cadastrar evento
-    Comando editar evento
-    Comando descadastrar evento
-    Comando autenticar usuario
-    comando comprar ingresso
-    comando consultar evento
-    comando solicitar informacao de vendas
+    //Comando cadastrar Usuario
+    //Comando Cadastrar evento
+    //Comando editar evento
+    //Comando descadastrar evento
+    //Comando autenticar usuario
+    //comando comprar ingresso
+    //comando consultar evento
+    //comando solicitar informacao de vendas
 
    Teste:
    Todos os dominios

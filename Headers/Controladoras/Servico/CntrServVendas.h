@@ -14,7 +14,7 @@ public:
     std::list<std::string>
     comprarIngresso(const Usuario &usuario, const Codigo_De_Apresentacao &codigoDeApresentacao, int qtdIngresso) override ;
 
-    std::list<Cpf> solicitarInformacaoDeVendas(const Codigo_De_Evento &codigoDeEvento) override;
+    std::list< std::pair<std::string, std::list<std::string> > > solicitarInformacaoDeVendas(const Codigo_De_Evento &codigoDeEvento, const Usuario &usuario) override;
 };
 
 

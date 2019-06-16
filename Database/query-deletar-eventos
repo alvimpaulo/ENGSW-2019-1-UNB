@@ -1,0 +1,12 @@
+DELETE FROM Apresentacoes
+      WHERE Evento IN (
+    SELECT Codigo
+      FROM Eventos
+     WHERE Usuario = "000.000.000-08" AND 
+           Codigo = "005"
+);
+
+
+DELETE FROM Eventos
+      WHERE Codigo = "005" AND 
+            Usuario = "000.000.000-08";

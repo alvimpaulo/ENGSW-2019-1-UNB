@@ -13,7 +13,7 @@
 #include "../Dominios/Faixa_Etaria.h"
 
 class Evento {
-
+public:
     /**
     * @brief Construtor da classe.
     * @details Quando uma instância dessa classe for criada, será armazenado um valor padrão de suas variáveis.
@@ -32,7 +32,7 @@ class Evento {
      * @brief Retorna o codigo de evento do evento.
      * @return Codigo_De_Evento contendo o codigo de evento .
      */
-    Codigo_De_Evento getCodigoDeEvento(){
+    Codigo_De_Evento getCodigoDeEvento() const {
         return codigoDeEvento;
     }
 
@@ -48,7 +48,7 @@ class Evento {
      * @brief Retorna o nome de evento do evento.
      * @return Nome_De_Evento contendo o nome de evento.
      */
-    Nome_De_Evento getNomeDeEvento(){
+    Nome_De_Evento getNomeDeEvento() const {
         return nomeDeEvento;
     }
 
@@ -65,7 +65,7 @@ class Evento {
      * @brief Retorna a cidade do evento.
      * @return Cidade contendo a cidade de evento.
      */
-    Cidade getCidade(){
+    Cidade getCidade() const {
         return cidade;
     }
 
@@ -81,7 +81,7 @@ class Evento {
      * @brief Retorna o estado do evento.
      * @return Estado contendo o estado .
      */
-    Estado getEstado(){
+    Estado getEstado() const {
         return estado;
     }
 
@@ -97,7 +97,7 @@ class Evento {
      * @brief Retorna a classe de evento do evento.
      * @return Classe_De_Evento contendo a classe de evento .
      */
-    Classe_De_Evento getClasseDeEvento(){
+    Classe_De_Evento getClasseDeEvento() const {
         return classeDeEvento;
     }
 
@@ -113,7 +113,7 @@ class Evento {
      * @brief Retorna a faixa etaria do evento.
      * @return Faixa_Etaria contendo o faixa etaria .
      */
-    Faixa_Etaria getFaixaEtaria(){
+    Faixa_Etaria getFaixaEtaria() const {
         return faixaEtaria;
     }
 

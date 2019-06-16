@@ -101,6 +101,9 @@
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoCadastrarEvento.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoCadastrarUsuario.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -125,10 +128,19 @@
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoDescadastrarEvento.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoDescadastrarUsuario.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoEditarAcomodacao.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoEditarEvento.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoEditarEvento.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoGetApresentacoesFromEvento.h">
@@ -138,6 +150,9 @@
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoPesquisarAcomodacao.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoPesquisarEvento.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoRealizarReserva.h">
@@ -392,9 +407,6 @@
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoCadastrarEvento.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoCadastrarEvento.h">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -419,6 +431,9 @@
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -432,6 +447,9 @@
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoPesquisarEvento.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoRealizarReserva.cpp">

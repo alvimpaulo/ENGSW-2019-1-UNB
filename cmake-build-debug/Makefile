@@ -123,6 +123,33 @@ Trabalho_1_Clion/fast:
 	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/build
 .PHONY : Trabalho_1_Clion/fast
 
+Headers/ComandoSQL/ComandoEditarEvento.o: Headers/ComandoSQL/ComandoEditarEvento.cpp.o
+
+.PHONY : Headers/ComandoSQL/ComandoEditarEvento.o
+
+# target to build an object file
+Headers/ComandoSQL/ComandoEditarEvento.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.o
+.PHONY : Headers/ComandoSQL/ComandoEditarEvento.cpp.o
+
+Headers/ComandoSQL/ComandoEditarEvento.i: Headers/ComandoSQL/ComandoEditarEvento.cpp.i
+
+.PHONY : Headers/ComandoSQL/ComandoEditarEvento.i
+
+# target to preprocess a source file
+Headers/ComandoSQL/ComandoEditarEvento.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.i
+.PHONY : Headers/ComandoSQL/ComandoEditarEvento.cpp.i
+
+Headers/ComandoSQL/ComandoEditarEvento.s: Headers/ComandoSQL/ComandoEditarEvento.cpp.s
+
+.PHONY : Headers/ComandoSQL/ComandoEditarEvento.s
+
+# target to generate assembly for a file
+Headers/ComandoSQL/ComandoEditarEvento.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.s
+.PHONY : Headers/ComandoSQL/ComandoEditarEvento.cpp.s
+
 Sources/ComandoSQL/ComandoAutenticar.o: Sources/ComandoSQL/ComandoAutenticar.cpp.o
 
 .PHONY : Sources/ComandoSQL/ComandoAutenticar.o
@@ -501,6 +528,33 @@ Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.s
 
+Sources/ComandoSQL/ComandoDescadastrarEvento.o: Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarEvento.o
+
+# target to build an object file
+Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o
+
+Sources/ComandoSQL/ComandoDescadastrarEvento.i: Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarEvento.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.i
+
+Sources/ComandoSQL/ComandoDescadastrarEvento.s: Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarEvento.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.s
+
 Sources/ComandoSQL/ComandoDescadastrarUsuario.o: Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.o
 
 .PHONY : Sources/ComandoSQL/ComandoDescadastrarUsuario.o
@@ -635,6 +689,33 @@ Sources/ComandoSQL/ComandoPesquisarAcomodacao.s: Sources/ComandoSQL/ComandoPesqu
 Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.s
+
+Sources/ComandoSQL/ComandoPesquisarEvento.o: Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o
+
+.PHONY : Sources/ComandoSQL/ComandoPesquisarEvento.o
+
+# target to build an object file
+Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o
+.PHONY : Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o
+
+Sources/ComandoSQL/ComandoPesquisarEvento.i: Sources/ComandoSQL/ComandoPesquisarEvento.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoPesquisarEvento.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoPesquisarEvento.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoPesquisarEvento.cpp.i
+
+Sources/ComandoSQL/ComandoPesquisarEvento.s: Sources/ComandoSQL/ComandoPesquisarEvento.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoPesquisarEvento.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoPesquisarEvento.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho_1_Clion.dir/build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoPesquisarEvento.cpp.s
 
 Sources/ComandoSQL/ComandoRealizarReserva.o: Sources/ComandoSQL/ComandoRealizarReserva.cpp.o
 
@@ -2481,6 +2562,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Trabalho_1_Clion"
 	@echo "... edit_cache"
+	@echo "... Headers/ComandoSQL/ComandoEditarEvento.o"
+	@echo "... Headers/ComandoSQL/ComandoEditarEvento.i"
+	@echo "... Headers/ComandoSQL/ComandoEditarEvento.s"
 	@echo "... Sources/ComandoSQL/ComandoAutenticar.o"
 	@echo "... Sources/ComandoSQL/ComandoAutenticar.i"
 	@echo "... Sources/ComandoSQL/ComandoAutenticar.s"
@@ -2523,6 +2607,9 @@ help:
 	@echo "... Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.o"
 	@echo "... Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.i"
 	@echo "... Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.s"
+	@echo "... Sources/ComandoSQL/ComandoDescadastrarEvento.o"
+	@echo "... Sources/ComandoSQL/ComandoDescadastrarEvento.i"
+	@echo "... Sources/ComandoSQL/ComandoDescadastrarEvento.s"
 	@echo "... Sources/ComandoSQL/ComandoDescadastrarUsuario.o"
 	@echo "... Sources/ComandoSQL/ComandoDescadastrarUsuario.i"
 	@echo "... Sources/ComandoSQL/ComandoDescadastrarUsuario.s"
@@ -2538,6 +2625,9 @@ help:
 	@echo "... Sources/ComandoSQL/ComandoPesquisarAcomodacao.o"
 	@echo "... Sources/ComandoSQL/ComandoPesquisarAcomodacao.i"
 	@echo "... Sources/ComandoSQL/ComandoPesquisarAcomodacao.s"
+	@echo "... Sources/ComandoSQL/ComandoPesquisarEvento.o"
+	@echo "... Sources/ComandoSQL/ComandoPesquisarEvento.i"
+	@echo "... Sources/ComandoSQL/ComandoPesquisarEvento.s"
 	@echo "... Sources/ComandoSQL/ComandoRealizarReserva.o"
 	@echo "... Sources/ComandoSQL/ComandoRealizarReserva.i"
 	@echo "... Sources/ComandoSQL/ComandoRealizarReserva.s"

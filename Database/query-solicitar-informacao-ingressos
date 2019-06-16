@@ -1,0 +1,7 @@
+SELECT Usuario, Apresentacao
+  FROM Ingressos
+ WHERE Apresentacao IN (
+                          SELECT Codigo
+                            FROM Apresentacoes
+                           WHERE Evento = "000"
+                      );

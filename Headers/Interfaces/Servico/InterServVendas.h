@@ -14,7 +14,7 @@ class InterServVendas {
 public:
     virtual std::list<std::string>
     comprarIngresso(const Usuario &usuario, const Codigo_De_Apresentacao &codigoDeApresentacao, int qtdIngresso) = 0;
-    virtual std::list<Cpf> solicitarInformacaoDeVendas(const Codigo_De_Evento &codigoDeEvento) = 0;
+    virtual std::list< std::pair<std::string, std::list<std::string> > > solicitarInformacaoDeVendas(const Codigo_De_Evento &codigoDeEvento, const Usuario &usuario) = 0;
 
 };
 

@@ -86,6 +86,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.o"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.o"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o"
+  "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o"
+  "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o"
+  "CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.o"
   "Trabalho_1_Clion.pdb"
   "Trabalho_1_Clion"
 )

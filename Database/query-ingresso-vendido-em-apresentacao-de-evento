@@ -1,0 +1,13 @@
+SELECT Codigo,
+       Usuario
+  FROM Eventos
+ WHERE Codigo = "000" AND 
+       Usuario = "000.000.000-09" AND 
+       Codigo IN (
+           SELECT Evento
+             FROM Apresentacoes
+            WHERE Codigo IN (
+                      SELECT Apresentacao
+                        FROM Ingressos
+                  )
+       );

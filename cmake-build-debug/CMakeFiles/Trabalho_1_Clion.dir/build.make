@@ -1188,6 +1188,45 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoCadastrarEvento.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.s
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o: ../Sources/ComandoSQL/ComandoPesquisarEvento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoPesquisarEvento.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoPesquisarEvento.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoPesquisarEvento.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o: ../Sources/ComandoSQL/ComandoDescadastrarEvento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp > CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.o: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.o: ../Headers/ComandoSQL/ComandoEditarEvento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.o -c /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoEditarEvento.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoEditarEvento.cpp > CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/Headers/ComandoSQL/ComandoEditarEvento.cpp -o CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.s
+
 # Object files for target Trabalho_1_Clion
 Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/main.cpp.o" \
@@ -1276,7 +1315,10 @@ Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp.o" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.o" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.o" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o"
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o" \
+"CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.o"
 
 # External object files for target Trabalho_1_Clion
 Trabalho_1_Clion_EXTERNAL_OBJECTS =
@@ -1368,9 +1410,12 @@ Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSoli
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoComprarIngresso.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/cntrServEvento.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarEvento.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarEvento.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp.o
+Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/Headers/ComandoSQL/ComandoEditarEvento.cpp.o
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/build.make
 Trabalho_1_Clion: CMakeFiles/Trabalho_1_Clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking CXX executable Trabalho_1_Clion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paulo/unb/ENGSW/ENGSW-2019-1-UNB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Linking CXX executable Trabalho_1_Clion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Trabalho_1_Clion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

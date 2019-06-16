@@ -14,11 +14,11 @@
 class InterServEvento {
 public:
     //Retorna os eventos que batem com a pesquisa.
-    virtual std::list<Evento> pesquisar(
-            const Data& dataInicio,
-            const Data& dataTermino,
-            const Cidade& cidade,
-            const Estado& estado) = 0;
+    virtual std::list<std::pair<Evento, Apresentacao>> pesquisar(
+            const Data &dataInicio,
+            const Data &dataTermino,
+            const Cidade &cidade,
+            const Estado &estado) = 0;
 
     //Cadastra um novo evento para o usuario atual. Todos parametros sao obrigatorios.
     virtual void cadastrarEvento(
@@ -37,9 +37,6 @@ public:
             const Usuario& usuario) = 0;
 
     //edita um evento
-    virtual void editarEvento(
-            const Codigo_De_Evento& codigoDeEvento,
-            const Evento& evento,
-            const Usuario& usuario) = 0;
+    virtual void editarEvento(const Evento &evento, const Usuario &usuario) = 0;
 };
 #endif //TRABALHO_1_CLION_INTERSERVEVENTO_H

@@ -11,8 +11,11 @@
 
 class ComandoSolicitarInformacaoDeVendas: public ComandoSQL{
 public:
-    explicit ComandoSolicitarInformacaoDeVendas(const Codigo_De_Evento& codigoDeEvento);
+    explicit ComandoSolicitarInformacaoDeVendas(const Codigo_De_Evento &codigoDeEvento,
+                                                const Usuario &usuario);
     std::list<Cpf> getCpfs();
+    std::list< std::pair<std::string, std::list<std::string> > > getApresentacaoVsCpf(const Codigo_De_Evento &codigoDeEvento,
+                                                                         const Usuario &usuario);
 
 };
 

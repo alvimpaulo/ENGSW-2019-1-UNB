@@ -1,0 +1,12 @@
+SELECT DISTINCT Apresentacao
+  FROM Ingressos
+ WHERE Apresentacao IN (
+           SELECT Codigo
+             FROM Apresentacoes
+            WHERE Evento IN (
+                      SELECT Codigo
+                        FROM Eventos
+                       WHERE Codigo = '000' AND 
+                             Usuario = '000.000.000-09'
+                  )
+       );

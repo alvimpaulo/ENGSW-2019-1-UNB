@@ -81,7 +81,7 @@ void CntrAprVendas::comprarIngressos(const Usuario &usuario) {
 
 void CntrAprVendas::solicitarInformacaoVendas(const Usuario &usuario) {
     Codigo_De_Evento codigoDeEvento;
-    std::vector<Apresentacao> apresentacoes;
+    std::list< std::pair<std::string, std::list<std::string> > > apresentacoesVsCpfs;
     std::vector<Cpf> cpfIngressosVendidos;
 
 
@@ -100,16 +100,14 @@ void CntrAprVendas::solicitarInformacaoVendas(const Usuario &usuario) {
     }
 
     try{
-        apresentacoes = cntrServVendas->getApresentacoesFromEvento(codigoDeEvento);
-        for (int i = 0; i < apresentacoes.size(); ++i) {
-            std::cout << "Codigo da apresentacao: " << apresentacoes[i].getCodigoDeApresentacao().getCodigoApresentacao() << std::endl;
-
-            cpfIngressosVendidos = cntrServVendas->getIngressosFromEvento(apresentacoes[i]);
-            std::cout << "Quantidade de ingressos vendidos: " << cpfIngressosVendidos.size() + 1 << std::endl;
-
-            for (int j = 0; j < cpfIngressosVendidos.size(); ++j) {
-                std::cout << "Cpf do comprador: " << cpfIngressosVendidos[j].getCpf() << std::endl;
+        apresentacoesVsCpfs = cntrServVendas->solicitarInformacaoDeVendas(codigoDeEvento, usuario);
+        for (auto const& i: apresentacoesVsCpfs){
+            std::cout << "Apresentacao: " << i.first << std::endl;
+            std::cout << "Numero de compradores: " << i.second.size() << std::endl;
+            for(auto const& j: i.second){
+                std::cout << "Cpf dos compradores: " << j << std::endl;
             }
+
         }
     } catch(std::exception &e) {
         std::cout << std::endl << "nao foi possível acessar as informacoes deste evento" << std::endl;

@@ -11,9 +11,10 @@ CntrServVendas::comprarIngresso(const Usuario &usuario, const Codigo_De_Apresent
     return sqlComprar.comprarIngresso(usuario, qtdIngresso, codigoDeApresentacao);
 }
 
-std::list<Cpf> CntrServVendas::solicitarInformacaoDeVendas(const Codigo_De_Evento &codigoDeEvento) {
-    ComandoSolicitarInformacaoDeVendas sqlSolicitar(codigoDeEvento);
+std::list< std::pair<std::string, std::list<std::string> > >
+CntrServVendas::solicitarInformacaoDeVendas(const Codigo_De_Evento &codigoDeEvento, const Usuario &usuario) {
+    ComandoSolicitarInformacaoDeVendas sqlSolicitar(codigoDeEvento, usuario);
     sqlSolicitar.executar();
-    std::list<Cpf> resultadoPesquisa = sqlSolicitar.getCpfs();
+    std::list< std::pair<std::string, std::list<std::string> > > resultadoPesquisa = sqlSolicitar.getApresentacaoVsCpf(codigoDeEvento, usuario);
     return resultadoPesquisa;
 }

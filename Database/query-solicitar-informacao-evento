@@ -1,0 +1,20 @@
+SELECT Eventos.Nome,
+       Apresentacoes.Codigo,
+       Apresentacoes.Data,
+       Apresentacoes.Horario,
+       Apresentacoes.Preco,
+       Apresentacoes.Sala,
+       Apresentacoes.Disponibilidade,
+       Eventos.Classe,
+       Eventos.Faixa
+  FROM Apresentacoes
+       INNER JOIN
+       Eventos ON Apresentacoes.Evento = Eventos.Codigo
+ WHERE Evento IN (
+           SELECT Codigo
+             FROM Eventos
+            WHERE (Estado, Cidade) = ("BA", "paulandia do su") 
+       )
+AND 
+       Data >= "2010-10-09" AND 
+       Data <= "2010-10-13";

@@ -12,7 +12,7 @@
 class ComandoAutenticar: public ComandoSQL{
 public:
     std::string getSenha(const Usuario &usuario);
-};&
+};
 
 
 #endif //TRABALHO_1_CLION_COMANDOAUTENTICAR_H
