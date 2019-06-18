@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.12)
-project(Trabalho_1_Clion)
+project(Trabalho_1_ENGSW)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -D_GLIBCXX_DEBUG")
 
 find_package (Threads)
 
-add_executable(Trabalho_1_Clion
+add_executable(Trabalho_1_ENGSW
 		main.cpp
 
         Sources/Dominios/Codigo_De_Evento.cpp
@@ -171,4 +171,4 @@ add_executable(Trabalho_1_Clion
 		Headers/ComandoSQL/ComandoEditarEvento.h
 		)
 
-target_link_libraries(Trabalho_1_Clion  ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
+target_link_libraries(Trabalho_1_ENGSW  ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})

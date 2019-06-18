@@ -41,7 +41,7 @@ protected:
 public:
     ComandoSQL(){
         //Informa o nome do banco de dados.
-        nomeBancoDados = "../Database/Database.db";
+        nomeBancoDados = "./Database/Database.db";
     }
     void executar();
 };
