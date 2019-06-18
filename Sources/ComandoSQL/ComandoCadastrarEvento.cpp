@@ -8,7 +8,7 @@
 #include "sstream"
 #include "ctime"
 
-void ComandoCadastrarEvento::cadastrarEvento(const Codigo_De_Evento &codigoDeEvento, const Nome_De_Evento &nomeDeEvento,
+void ComandoCadastrarEvento::cadastrarEvento(const Nome_De_Evento &nomeDeEvento,
                                              const std::list<Apresentacao> &apresentacoes, const Cidade &cidade,
                                              const Estado &estado, const Classe_De_Evento &classeDeEvento,
                                              const Faixa_Etaria &faixaEtaria, const Usuario &usuario){
@@ -25,7 +25,11 @@ void ComandoCadastrarEvento::cadastrarEvento(const Codigo_De_Evento &codigoDeEve
         throw std::runtime_error("Pesquisa vazia");
     } else{
         while (!listaResultado.empty()) {
-            codigoEventoAtual = std::stoi(listaResultado.front().getValorColuna()) + 1;
+            if(listaResultado.front().getValorColuna() == "NULL"){
+                codigoEventoAtual = 1;
+            } else{
+                codigoEventoAtual = std::stoi(listaResultado.front().getValorColuna()) + 1;
+            }
             listaResultado.pop_front();
         }
         listaResultado.clear();
@@ -41,10 +45,10 @@ void ComandoCadastrarEvento::cadastrarEvento(const Codigo_De_Evento &codigoDeEve
                      "                        \"" + faixaEtaria.getFaixaEtaria() + "\",\n"
                      "                        \"" + usuario.getCpf().getCpf() + "\"\n"
                      "                    );";
-                                                                                                                                                                                                                                                                                                                                                                                                                                                         "                    );"
+        this->executar();
     }
 
-    for (int i = 0; i < apresentacoes.size(); ++i) {
+    for (auto &apresentacao: apresentacoes) {
         listaResultado.clear();
         comandoSQL = "SELECT max(Codigo) \n"
                      "  FROM Apresentacoes;";
@@ -54,7 +58,12 @@ void ComandoCadastrarEvento::cadastrarEvento(const Codigo_De_Evento &codigoDeEve
             throw std::runtime_error("Pesquisa vazia");
         } else {
             while (!listaResultado.empty()) {
-                codigoApresentacaoAtual = std::stoi(listaResultado.front().getValorColuna()) + 1;
+                if(listaResultado.front().getValorColuna() == "NULL"){
+                    codigoApresentacaoAtual = 1;
+                } else{
+                    codigoApresentacaoAtual = std::stoi(listaResultado.front().getValorColuna()) + 1;
+                }
+
                 listaResultado.pop_front();
             }
             listaResultado.clear();
@@ -63,20 +72,20 @@ void ComandoCadastrarEvento::cadastrarEvento(const Codigo_De_Evento &codigoDeEve
 
             //converter data de dd/mm/aaaa para aaaa-mm-dd
             struct tm tm;
-            strptime(apresentacoes.front().getData().getData().c_str(), "%d/%m/%Y", &tm);
+            strptime(apresentacao.getData().getData().c_str(), "%d/%m/%Y", &tm);
             char dataConverted[11];
             strftime(dataConverted, sizeof(dataConverted), "%Y-%m-%d", &tm);
-
 
             comandoSQL = "INSERT INTO Apresentacoes VALUES (\n"
                             "\"" + codigoApresentacaoAtualStream.str() + "\",\n"
                             "\"" + dataConverted + "\",\n"
-                            "\"" + apresentacoes.front().getHorario().getHorario() + "\",\n"
-                            "\"" + std::to_string(apresentacoes.front().getPreco().getPreco()) + "\",\n"
-                            "\"" + apresentacoes.front().getNumDeSala().getNumSala() + "\",\n"
-                            "\"" + apresentacoes.front().getDisponibilidade().getDisponibilidade() + "\",\n"
-                            "\"" + codigoDeEvento->getCodigoEvento() + "\"\n"
+                            "\"" + apresentacao.getHorario().getHorario() + "\",\n"
+                            "\"" + std::to_string(apresentacao.getPreco().getPreco()) + "\",\n"
+                            "\"" + apresentacao.getNumDeSala().getNumSala() + "\",\n"
+                            "\"" + apresentacao.getDisponibilidade().getDisponibilidade() + "\",\n"
+                            "\"" + codigoEventoAtualStream.str() + "\"\n"
                             ");";
+            this->executar();
 
             codigoApresentacaoAtualStream.str("");
             codigoApresentacaoAtualStream.clear();

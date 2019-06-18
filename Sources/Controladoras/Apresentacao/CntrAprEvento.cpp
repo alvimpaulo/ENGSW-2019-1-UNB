@@ -38,7 +38,7 @@ void printEventos(const std::list<std::pair<Evento, Apresentacao> >& eventos){
     }
 }
 
-void CntrAprEvento::setCntrsServAutenticacao(InterServEvento *cntrServEvento) {
+void CntrAprEvento::setCntrServEvento(InterServEvento *cntrServEvento) {
     this->cntrServEvento = cntrServEvento;
 
 }
@@ -91,6 +91,7 @@ void CntrAprEvento::executar(Usuario &usuario) {
                 flag = false;
                 break;
             case OPCAO_SAIR_EVENTO:
+                flag = false;
             default:
                 break;
         }
@@ -136,7 +137,6 @@ void CntrAprEvento::pesquisar() {
 }
 
 void CntrAprEvento::cadastrar(const Usuario &usuario) {
-    Codigo_De_Evento codigoDeEvento;
     Cidade cidade;
     Nome_De_Evento nomeDeEvento;
     Estado estado;
@@ -145,7 +145,6 @@ void CntrAprEvento::cadastrar(const Usuario &usuario) {
 
     std::list<Apresentacao> apresentacoes;
     Apresentacao apresentacao;
-    Codigo_De_Apresentacao codigoDeApresentacao;
     Data data;
     Horario horario;
     Preco preco;
@@ -159,9 +158,6 @@ void CntrAprEvento::cadastrar(const Usuario &usuario) {
 
     while (!sair) {
         try {
-            std::cout << "Digite o codigo do seu evento: ";
-            std::getline(std::cin, input);
-            codigoDeEvento.setCodigoEvento(input);
             std::cout << "Digite o nome do seu evento: ";
             std::getline(std::cin, input);
             nomeDeEvento.setNome_De_Evento(input);
@@ -182,9 +178,6 @@ void CntrAprEvento::cadastrar(const Usuario &usuario) {
             std::getline(std::cin, input);
             numDeApresentacoes = std::stoi(input);
             for (int i = 0; i < numDeApresentacoes; ++i) {
-                std::cout << "Digite o codigo da apresentacao: ";
-                std::getline(std::cin, input);
-                codigoDeApresentacao.setCodigoApresentacao(input);
                 std::cout << "Digite a data da apresentacao: ";
                 std::getline(std::cin, input);
                 data.setData(input);
@@ -206,9 +199,9 @@ void CntrAprEvento::cadastrar(const Usuario &usuario) {
                 apresentacao.setData(data);
                 apresentacao.setDisponibilidade(disponibilidade);
                 apresentacao.setNumDeSala(numDeSala);
-                apresentacao.setCodigoDeApresentacao(codigoDeApresentacao);
 
                 apresentacoes.push_back(apresentacao);
+
             }
 
             sair = true;
@@ -219,7 +212,7 @@ void CntrAprEvento::cadastrar(const Usuario &usuario) {
     }
 
     try {
-        cntrServEvento->cadastrarEvento(codigoDeEvento, nomeDeEvento, apresentacoes, cidade, estado, classeDeEvento, faixaEtaria, usuario);
+        cntrServEvento->cadastrarEvento(nomeDeEvento, apresentacoes, cidade, estado, classeDeEvento, faixaEtaria, usuario);
     } catch (std::invalid_argument &e) {
         std::cout << std::endl << "Nao foi possivel cadastrar o evento!" << std::endl;
         return;
@@ -247,11 +240,11 @@ void CntrAprEvento::descadastrar(const Usuario &usuario) {
 
     try {
         cntrServEvento->descadastrarEvento(codigoDeEvento, usuario);
-    } catch (std::invalid_argument &e) {
-        std::cout << std::endl << "Nao foi possivel cadastrar o evento!" << std::endl;
+    } catch (std::runtime_error &e) {
+        std::cout << std::endl << "Nao foi possivel descadastrar o evento, motivo: " << e.what() << std::endl;
         return;
     }
-    std::cout << "Evento cadastrado com sucesso" << std::endl;
+    std::cout << "Evento descadastrado com sucesso" << std::endl;
 
 }
 
@@ -306,8 +299,8 @@ void CntrAprEvento::editar(const Usuario &usuario) {
     try {
         cntrServEvento->editarEvento(evento, usuario);
     } catch (std::invalid_argument &e) {
-        std::cout << std::endl << "Nao foi possivel cadastrar o evento!" << std::endl;
+        std::cout << std::endl << "Nao foi possivel editar o evento!" << std::endl;
         return;
     }
-    std::cout << "Evento cadastrado com sucesso" << std::endl;
+    std::cout << "Evento editado com sucesso" << std::endl;
 }

@@ -4,12 +4,6 @@
 
 #include "../../Headers/Dominios/Data.h"
 
-const std::vector<std::string> Data::NOME_MESES = {
-        "jan", "fev", "mar", "apr",
-        "mai", "jun", "jul", "ago",
-        "set", "out", "nov", "dez"
-};
-
 const std::vector<int> Data::LIMITE_SUPERIOR_DIA = {
         31, 28, 31,
         30, 31, 30,
@@ -19,14 +13,14 @@ const std::vector<int> Data::LIMITE_SUPERIOR_DIA = {
 
 Data::Data(){
     dia = "01";
-    mes = 0;
+    mes = "01";
     ano = "2000";
-    data = "01/jan/2000";
+    data = "01/01/2000";
 }
 
 void Data::setData(std::string data){
     if(validar(data)){
-        setData(data.substr(0, 2), data.substr(3, 3), data.substr(7, 4));
+        setData(data.substr(0, 2), data.substr(3, 2), data.substr(6, 4));
     } else{
         throw (std::invalid_argument(data + "nao eh uma data valida"));
     }
@@ -54,21 +48,21 @@ std::string Data::getDia() const{
 
 void Data::setMes(std::string mes){
     if(validarMes(mes)){
-        this->mes = std::find(NOME_MESES.begin(), NOME_MESES.end(), mes) - NOME_MESES.begin();
-        data.replace(3, 3, mes);
+        this->mes = mes;
+        data.replace(3, 2, mes);
     } else{
         throw (std::invalid_argument(mes + "nao eh um mes valido"));
     }
 }
 
 std::string Data::getMes() const{
-    return NOME_MESES[mes];
+    return mes;
 }
 
 void Data::setAno(std::string ano){
     if(validarAno(ano)){
         this->ano = ano;
-        data.replace(7, 4, ano);
+        data.replace(6, 4, ano);
     } else{
         throw (std::invalid_argument(ano + "nao eh um ano valido"));
     }
@@ -79,7 +73,7 @@ std::string Data::getAno() const{
 }
 
 bool Data::validar(std::string data){
-    std::regex nomeRegex(R"((\d{2})(\/)([a-zA-z]{3})(\/)(\d{4}))");
+    std::regex nomeRegex(R"((\d{2})(\/)(0\d|(1[012]))(\/)(\d{4}))");
 
     return std::regex_match(data, nomeRegex);
 }
@@ -88,15 +82,13 @@ bool Data::validarDia(std::string dia){
     std::regex nomeRegex(R"((\d{2}))");
     int tmpDia = std::stoi(dia);
 
-    return std::regex_match(dia, nomeRegex) &&
-   LIMITE_INFERIOR_DIA <= tmpDia &&
-   tmpDia <= (LIMITE_SUPERIOR_DIA[mes] + ((std::stoi(ano) & 3) == 0 && mes == 1 ? 1 : 0));
+    return std::regex_match(dia, nomeRegex);
 }
 
 bool Data::validarMes(std::string mes){
-    std::regex nomeRegex(R"(([a-zA-z]{3}))");
+    std::regex nomeRegex(R"((0\d|(1[012])))");
 
-    return std::regex_match(mes, nomeRegex) && *std::find(NOME_MESES.begin(), NOME_MESES.end(), mes) == mes;
+    return std::regex_match(mes, nomeRegex);
 }
 
 bool Data::validarAno(std::string ano){
@@ -104,7 +96,7 @@ bool Data::validarAno(std::string ano){
 
     if(std::regex_match(ano, nomeRegex)){
         int tmpAno = std::stoi(ano);
-        return LIMITE_INFERIOR_ANO <= tmpAno && tmpAno <= LIMITE_SUPERIOR_ANO;
+        return true;
     } else{
         return false;
     }

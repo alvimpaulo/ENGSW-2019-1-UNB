@@ -83,7 +83,16 @@ ComandoPesquisarEvento::pesquisarEvento(const Data &dataInicio, const Data &data
                 colunasPercorridas++;
             }
             if (!colunaAtual.getNomeColuna().compare("Data")) {
-                dataAtual.setData(colunaAtual.getValorColuna());
+
+                //converter data de aaaa-mm-dd para dd/mm/aaaa
+                std::string rawData;
+                rawData = colunaAtual.getValorColuna();
+                struct tm tmDataApresentacao;
+                strptime(rawData.c_str(), "%Y-%m-%d", &tmDataApresentacao);
+                char dataApresentacaoConverted[11];
+                strftime(dataApresentacaoConverted, sizeof(dataApresentacaoConverted), "%d/%m/%Y", &tmDataApresentacao);
+
+                dataAtual.setData(dataApresentacaoConverted);
                 apresentacaoAtual.setData(dataAtual);
                 colunasPercorridas++;
             }

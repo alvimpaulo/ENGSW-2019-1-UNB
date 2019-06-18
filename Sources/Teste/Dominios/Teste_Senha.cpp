@@ -4,8 +4,8 @@
 
 #include "../../../Headers/Teste/Dominios/Teste_Senha.h"
 
-const std::string Teste_Senha::VALOR_VALIDO = "Po123#%a";
-const std::string Teste_Senha::VALOR_INVALIDO = "OscPaulo";
+const std::string Teste_Senha::VALOR_VALIDO = "Paulo1";
+const std::string Teste_Senha::VALOR_INVALIDO = "OscPau";
 
 void Teste_Senha::configurar(){
     senha = new Senha;

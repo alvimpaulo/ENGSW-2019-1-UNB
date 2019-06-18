@@ -16,7 +16,7 @@ protected:
 public:
     CntrAprAutenticacao();
     Usuario autenticar() override;
-    void setCntrsServAutenticacao(InterServAutenticacao *cntrServAutenticacao) override;
+    void setCntrServAutenticacao(InterServAutenticacao *cntrServAutenticacao) override;
     virtual ~CntrAprAutenticacao();
 };
 

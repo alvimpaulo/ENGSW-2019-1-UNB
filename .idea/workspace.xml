@@ -12,41 +12,160 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7ebdddd-e599-4186-8849-b037edc35018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarEvento.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoEditarEvento.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarEvento.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoEditarEvento.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarEvento.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Classe_De_Evento.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Codigo_De_Apresentacao.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Codigo_De_Evento.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Codigo_De_Seguranca.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Cpf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Faixa_Etaria.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Horario.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Nome_De_Evento.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Num_De_Sala.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Preco.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Apresentacao.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Evento.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Ingresso.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Classe_De_Evento.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Codigo_De_Apresentacao.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Codigo_De_Evento.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Codigo_De_Seguranca.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Cpf.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Faixa_Etaria.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Horario.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Nome_De_Evento.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Num_De_Sala.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Preco.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Apresentacao.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Evento.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Ingresso.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/DatabaseNova.db" beforeDir="false" afterPath="$PROJECT_DIR$/Database/DatabaseNova.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoAutenticar.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoAutenticar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Database.db" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/DatabaseAntiga.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/DatabaseNova.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarAcomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarCartaoCredito.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarContaCorrente.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarEvento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoSolicitarInformacaoDeVendas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoSolicitarInformacaoDeVendas.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCancelarReserva.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoChecarContaCorrente.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarCartaoCredito.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarContaCorrente.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoEditarAcomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarAcomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarEvento.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoRealizarReserva.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprEvento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServVendas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServVendas.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Servico/cntrServEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Servico/cntrServEvento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Evento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Entidades/Evento.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprReserva.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprVendas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprVendas.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServAcomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServReserva.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Servico/cntrServEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServEvento.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Agencia.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Data.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Dominios/Data.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Num_Conta_Corrente.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Tipo_Acomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Acomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Conta_Corrente.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprEvento.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprReserva.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprVendas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprVendas.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServEvento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServVendas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServVendas.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Agencia.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Codigo_De_Ingresso.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Banco.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Disponibilidade.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Diaria.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Identificador.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Nome.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Cidade.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Acomodacao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Conta_Corrente.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Usuario.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Usuario.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarEvento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarEvento.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCancelarReserva.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoChecarContaCorrente.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoComprarIngresso.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoComprarIngresso.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarEvento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarEvento.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoRealizarReserva.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServVendas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServVendas.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Servico/cntrServEvento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Servico/cntrServEvento.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes to make or adapt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classes to make or adapt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServAcomodacao.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServReserva.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Servico/cntrServEvento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServEvento.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Agencia.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Data.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Estado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Estado.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Faixa_Etaria.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Faixa_Etaria.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Horario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Horario.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Identificador.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Nome_De_Evento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Nome_De_Evento.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Num_Conta_Corrente.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Preco.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Preco.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Senha.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Senha.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Tipo_Acomodacao.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Acomodacao.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Conta_Corrente.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Agencia.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Codigo_De_Ingresso.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Banco.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Disponibilidade.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Diaria.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Identificador.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Nome.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Cidade.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Senha.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Senha.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Usuario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Usuario.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes to make or adapt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,56 +188,22 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DatabaseNova" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes to make or adapt.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprEvento.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServUsuarios.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding>
-                <element signature="e#41#109#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
               <folding>
                 <element signature="e#41#113#0" expanded="true" />
               </folding>
@@ -127,52 +212,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp">
+        <entry file="file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            <state relative-caret-position="179">
+              <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServAutenticacao.cpp">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarEvento.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoSQL.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="168" column="54" selection-start-line="168" selection-start-column="54" selection-end-line="168" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Headers/Entidades/Cartao_De_Credito.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#41#113#0" expanded="true" />
+                <element signature="e#132#186#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoAutenticar.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-              <folding>
-                <element signature="e#144#167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoAutenticar.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarEvento.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -181,36 +284,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>numSala</find>
-      <find>Num_De_Sala</find>
-      <find>numero</find>
-      <find>setNumSala</find>
-      <find>enum</find>
-      <find>getCodigoApresentacao</find>
-      <find>Codigo_De_Apresentacao</find>
-      <find>codigoApresentacao</find>
-      <find>codigo</find>
-      <find>setCodigoApresentacao</find>
-      <find>código da apresentacao</find>
-      <find>Código da apresentacao</find>
-      <find>a data de validade</find>
-      <find>Acomodacao</find>
-      <find>serv</find>
-      <find>Serv</find>
-      <find>OPCAO_EDITAR_USUARIO</find>
-      <find>editar</find>
-      <find>OPCAO_CADASTRAR_CONTA</find>
-      <find>cadastrarUsuario</find>
-      <find>CntrAprAutenticacao</find>
-      <find>Evento</find>
-      <find>cadastrar</find>
-      <find>int</find>
-      <find>qtd</find>
-      <find>valorAtualStringStream</find>
-      <find>cout</find>
-      <find>senha</find>
-      <find>usuar</find>
+      <find>disponibilidade</find>
+      <find>Disponibilidade</find>
+      <find>Teste_Classe_De_Evento</find>
+      <find>classeDeEvento</find>
+      <find>ClasseEvento</find>
+      <find>Teste_Faixa_Etaria</find>
+      <find>faixaEtaria</find>
+      <find>FaixaEtaria</find>
+      <find>Teste_Usuario</find>
       <find>usuario</find>
+      <find>evento</find>
+      <find>Teste_Evento</find>
+      <find>Evento</find>
+      <find>data</find>
+      <find>filename</find>
+      <find>Database/</find>
+      <find>Dado em</find>
+      <find>get</find>
+      <find>getDa</find>
+      <find>jan</find>
+      <find>codigoDeEvento</find>
+      <find>apresentacoes</find>
+      <find>thro</find>
+      <find>Compra realizada</find>
+      <find>cout</find>
+      <find>Usuario descadastrado com sucesso</find>
+      <find>O usuario foi descadastrado com sucesso</find>
+      <find>ComandoCadastrarCartaoCredito</find>
+      <find>cadas</find>
+      <find>Apresentacao</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,63 +322,62 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServUsuarios.cpp" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarUsuario.h" />
-        <option value="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h" />
-        <option value="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprVendas.h" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprVendas.h" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServAcomodacao.h" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServAcomodacao.h" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServAutenticacao.h" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServReserva.h" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServReserva.h" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServUsuarios.h" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServUsuarios.h" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.h" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoGetIngressosFromApresentacao.h" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoGetIngressosFromApresentacao.cpp" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoComprarIngresso.h" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoComprarIngresso.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprUsuarios.h" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServAutenticacao.h" />
-        <option value="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServAutenticacao.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Classe_De_Evento.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Faixa_Etaria.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Faixa_Etaria.h" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Faixa_Etaria.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Dominios/Faixa_Etaria.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Cpf.h" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Cpf.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Codigo_De_Seguranca.h" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Codigo_De_Seguranca.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Evento.h" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Evento.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Apresentacao.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Apresentacao.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Ingresso.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Ingresso.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp" />
         <option value="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp" />
-        <option value="$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/CntrInicio.h" />
+        <option value="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprVendas.h" />
+        <option value="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprVendas.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Entidades.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Codigo_De_Ingresso.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Dominios.h" />
+        <option value="$PROJECT_DIR$/Sources/Dominios/Senha.cpp" />
+        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Entidades/Apresentacao.h" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarEvento.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Entidades/Evento.h" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Senha.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Dominios/Data.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.h" />
+        <option value="$PROJECT_DIR$/Sources/Dominios/Data.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServEvento.h" />
+        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServEvento.h" />
         <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarEvento.h" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarEvento.h" />
+        <option value="$PROJECT_DIR$/Sources/Dominios/Preco.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Preco.cpp" />
+        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarEvento.cpp" />
         <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarEvento.cpp" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarEvento.h" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoEditarEvento.h" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoEditarEvento.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/cntrServEvento.h" />
-        <option value="$PROJECT_DIR$/Sources/Controladoras/Servico/cntrServEvento.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Dominios/Estado.cpp" />
+        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoComprarIngresso.cpp" />
+        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp" />
         <option value="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprEvento.h" />
         <option value="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprEvento.h" />
+        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp" />
         <option value="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServEvento.h" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoSolicitarInformacaoDeVendas.h" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServVendas.h" />
-        <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServVendas.h" />
         <option value="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp" />
-        <option value="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServVendas.cpp" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoAutenticar.cpp" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoAutenticar.h" />
-        <option value="$PROJECT_DIR$/classes to make or adapt.txt" />
+        <option value="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServEvento.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp" />
+        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarEvento.h" />
+        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoSQL.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="747" />
   </component>
@@ -297,11 +399,6 @@
             <path>
               <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
               <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
               <item name="Headers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -314,97 +411,30 @@
               <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
               <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
               <item name="Headers" type="462c0819:PsiDirectoryNode" />
-              <item name="Controladoras" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Headers" type="462c0819:PsiDirectoryNode" />
-              <item name="Controladoras" type="462c0819:PsiDirectoryNode" />
-              <item name="Apresentacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Headers" type="462c0819:PsiDirectoryNode" />
-              <item name="Controladoras" type="462c0819:PsiDirectoryNode" />
-              <item name="Servico" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Headers" type="462c0819:PsiDirectoryNode" />
-              <item name="Entidades" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Headers" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Headers" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="Apresentacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Headers" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="Servico" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
-              <item name="ComandoSQL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
-              <item name="Controladoras" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
-              <item name="Controladoras" type="462c0819:PsiDirectoryNode" />
-              <item name="Apresentacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
-              <item name="Controladoras" type="462c0819:PsiDirectoryNode" />
-              <item name="Servico" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
-              <item name="Entidades" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
-              <item name="Teste" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
-              <item name="Teste" type="462c0819:PsiDirectoryNode" />
               <item name="Dominios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
+              <item name="Headers" type="462c0819:PsiDirectoryNode" />
+              <item name="Entidades" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="Dominios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENGSW-2019-1-UNB" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="Entidades" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,15 +455,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Sources/ComandoSQL" />
-      <recent name="$PROJECT_DIR$/Headers/ComandoSQL" />
-      <recent name="$PROJECT_DIR$/Sources/Controladoras/Servico" />
-      <recent name="$PROJECT_DIR$/Headers/Controladoras/Servico" />
-      <recent name="$PROJECT_DIR$/Sources/Controladoras/Apresentacao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Headers/Dominios" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sources/Teste/Entidades" />
+      <recent name="$PROJECT_DIR$/Sources/Teste/Dominios" />
+      <recent name="$PROJECT_DIR$/Headers/Teste/Dominios" />
+      <recent name="$PROJECT_DIR$/Sources/ComandoSQL" />
+      <recent name="$PROJECT_DIR$/Headers/ComandoSQL" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -472,7 +502,8 @@
       <workItem from="1560262931515" duration="4689000" />
       <workItem from="1560337467108" duration="8567000" />
       <workItem from="1560508172389" duration="24115000" />
-      <workItem from="1560639342396" duration="22945000" />
+      <workItem from="1560639342396" duration="45578000" />
+      <workItem from="1560804116673" duration="16835000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionadas as classes de dominio e entidades novas">
       <created>1560197512898</created>
@@ -509,30 +540,36 @@
       <option name="project" value="LOCAL" />
       <updated>1560627633234</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Controladoras e ComandosSql terminados?">
+      <created>1560725036827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560725036827</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87556000" />
+    <option name="totallyTimeSpent" value="127024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="747" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.23030303" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.3901515" />
+      <window_info id="Structure" order="1" sideWeight="0.5013624" side_tool="true" weight="0.23030303" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.4942717" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.4942717" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -613,433 +650,440 @@
     <MESSAGE value="Controladora e interface de usuario atualizada" />
     <MESSAGE value="Atualizado interface e controladoras de autenticação e usuarios" />
     <MESSAGE value="Alguns Comandos, controladoras e interfaces a mais.&#10;Terminado a especificação dos casos de uso.&#10;Banco de dados atualizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alguns Comandos, controladoras e interfaces a mais.&#10;Terminado a especificação dos casos de uso.&#10;Banco de dados atualizado" />
+    <MESSAGE value="Controladoras e ComandosSql terminados?" />
+    <MESSAGE value="Terminado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServEvento.h</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp</url>
+          <line>29</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp</url>
+          <line>24</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp</url>
+          <line>46</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp</url>
+          <line>55</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarEvento.cpp</url>
+          <line>130</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarEvento.cpp</url>
+          <line>94</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp</url>
+          <line>89</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp</url>
+          <line>67</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp</url>
+          <line>129</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp">
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/CntrInicio.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="e#118#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#345#392#0" expanded="true" />
-            <element signature="e#508#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoComprarIngresso.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="e#141#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Entidades/Apresentacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarContaCorrente.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarUsuario.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoComprarIngresso.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#40#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Entidades/Evento.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Nome_De_Evento.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/8/bits/stl_pair.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="207" column="11" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarEvento.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="e#141#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/cntrServEvento.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="e#125#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarEvento.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#141#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarEvento.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#147#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoEditarEvento.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#135#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprUsuarios.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprUsuarios.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServAcomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServAutenticacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="214" column="66" lean-forward="true" selection-start-line="164" selection-start-column="3" selection-end-line="214" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarEvento.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-          <folding>
-            <element signature="e#40#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprEvento.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#125#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoEditarEvento.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/cntrServEvento.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="124">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServEvento.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="105">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
             <element signature="e#128#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp">
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServEvento.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="15">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServVendas.h">
+    <entry file="file:///usr/include/c++/8/bits/basic_string.tcc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        <state relative-caret-position="113">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServVendas.h">
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Dominios.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoSolicitarInformacaoDeVendas.h">
+    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Preco.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        <state relative-caret-position="158">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/8/bits/stl_algo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4375" column="15" selection-start-line="4375" selection-start-column="15" selection-end-line="4375" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Preco.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Preco.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding>
-            <element signature="e#165#197#0" expanded="true" />
+            <element signature="e#41#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp">
+    <entry file="file:///usr/include/c++/8/ext/string_conversions.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
-          <folding>
-            <element signature="e#40#112#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprVendas.h">
+    <entry file="file:///usr/include/c++/8/bits/basic_string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="105">
+          <caret line="6410" selection-start-line="6410" selection-end-line="6410" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp">
+    <entry file="file://$PROJECT_DIR$/Headers/Entidades/Apresentacao.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="81" column="12" lean-forward="true" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServVendas.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="142" selection-start-line="17" selection-start-column="142" selection-end-line="17" selection-end-column="142" />
+        <state relative-caret-position="203">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarEvento.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp">
+    <entry file="file:///usr/include/c++/8/debug/vector">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#52#113#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="113">
+          <caret line="423" selection-start-line="423" selection-end-line="423" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprEvento.h">
+    <entry file="file:///usr/include/c++/8/bits/stl_algobase.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="113">
+          <caret line="990" selection-start-line="990" selection-end-line="990" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServUsuarios.cpp">
+    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Estado.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#41#109#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp">
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoEditarEvento.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#41#113#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-329" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServVendas.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoAutenticar.h">
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoComprarIngresso.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#144#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoAutenticar.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServAutenticacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="e#41#113#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="244">
+          <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServVendas.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="105" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/CntrInicio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprEvento.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprEvento.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServUsuarios.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServUsuarios.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarEvento.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarEvento.h">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarEvento.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServEvento.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarCartaoCredito.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="e#41#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Identificador.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarEvento.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes to make or adapt.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoSQL.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Entidades/Conta_Corrente.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoRealizarReserva.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Entidades/Cartao_De_Credito.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#132#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="168" column="54" selection-start-line="168" selection-start-column="54" selection-end-line="168" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>

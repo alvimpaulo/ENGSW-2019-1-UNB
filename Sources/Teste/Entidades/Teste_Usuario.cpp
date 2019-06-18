@@ -15,14 +15,12 @@ int Teste_Usuario::rodar(){
 }
 
 void Teste_Usuario::casoSucesso(){
-    Cidade nome;
-    Identificador identificador;
+    Cpf cpf;
     Senha senha;
 
     try{
         usuario->setSenha(senha);
-        usuario->setIdentificador(identificador);
-        usuario->setNome(nome);
+        usuario->setCpf(cpf);
     } catch(std::exception &exception){
         std::cout<<exception.what() << std::endl;
         estado = FALHA;

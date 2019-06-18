@@ -14,7 +14,7 @@ private:
 protected:
 public:
     virtual Usuario autenticar() = 0;
-    virtual void setCntrsServAutenticacao(InterServAutenticacao *cntrServAutenticacao) = 0;
+    virtual void setCntrServAutenticacao(InterServAutenticacao *cntrServAutenticacao) = 0;
 };
 
 

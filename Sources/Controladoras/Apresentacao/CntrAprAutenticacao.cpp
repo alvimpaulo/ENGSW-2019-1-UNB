@@ -38,7 +38,7 @@ Usuario CntrAprAutenticacao::autenticar() {
 
 }
 
-void CntrAprAutenticacao::setCntrsServAutenticacao(InterServAutenticacao *cntrServAutenticacao){
+void CntrAprAutenticacao::setCntrServAutenticacao(InterServAutenticacao *cntrServAutenticacao){
     this->cntrServAutenticacao = cntrServAutenticacao;
 }
 

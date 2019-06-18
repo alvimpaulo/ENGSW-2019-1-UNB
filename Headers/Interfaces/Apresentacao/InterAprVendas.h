@@ -11,7 +11,7 @@
 class InterAprVendas {
 public:
     virtual void executar(Usuario& usuario) = 0;
-    virtual void setCntrsServUsuarios(InterServVendas *cntrServVendas) = 0;
+    virtual void setCntrServVendas(InterServVendas *cntrServVendas) = 0;
 };
 
 

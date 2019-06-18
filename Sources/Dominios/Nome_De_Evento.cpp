@@ -10,7 +10,7 @@ Nome_De_Evento::Nome_De_Evento(){
     nomeDeEvento = "NomeNaoDefinidoMesmo";
 }
 
-void Nome_De_Evento::setNome_De_Evento(std::string nomeDeEvento{
+void Nome_De_Evento::setNome_De_Evento(std::string nomeDeEvento){
     std::regex nomeRegex(R"((( (?! ))|(\w)){20})");
     std::smatch results;
 

@@ -51,7 +51,7 @@ std::list< std::pair<std::string, std::list<std::string> > >
 ComandoSolicitarInformacaoDeVendas::getApresentacaoVsCpf(const Codigo_De_Evento &codigoDeEvento,
                                                          const Usuario &usuario) {
     listaResultado.clear();
-    std::list<std::string> codigoApresentacoes
+    std::list<std::string> codigoApresentacoes;
     std::list<std::string> cpfsDosIngressos;
     std::list<std::pair<std::string, std::list<std::string> > > apresentacaoVsCpf;
     comandoSQL = "SELECT DISTINCT Apresentacao\n"
@@ -72,10 +72,9 @@ ComandoSolicitarInformacaoDeVendas::getApresentacaoVsCpf(const Codigo_De_Evento 
         codigoApresentacoes.push_back(listaResultado.front().getValorColuna());
         listaResultado.pop_front();
     }
-
     for(auto const& i: codigoApresentacoes){
         listaResultado.clear();
-        comandoSQL = "SELECT DISTINCT Usuario\n"
+        comandoSQL = "SELECT Usuario\n"
                      "  FROM Ingressos\n"
                      " WHERE Apresentacao = '" + i + "'";
         this->executar();

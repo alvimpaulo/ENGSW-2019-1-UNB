@@ -28,11 +28,7 @@ private:
     static const std::string VALOR_VALIDO;
     static const std::string VALOR_CARACTERE_INVALIDO;
     static const std::string VALOR_COMPRIMENTO_INVALIDO;
-    static const std::string VALOR_INTERVALO_ANO_INVALIDO;
     static const std::string VALOR_MES_INVALIDO;
-    static const std::string VALOR_INTERVALO_DIA_MES_QUALQUER_INVALIDO;
-    static const std::string VALOR_INTERVALO_DIA_FEVEREIRO_NORMAL_INVALIDO;
-    static const std::string VALOR_INTERVALO_DIA_FEVEREIRO_BIXESTO_INVALIDO;
 
     Data *data;
 
@@ -45,11 +41,7 @@ private:
     void casoFalha();
     void casoFalhaCaratereInvalido();
     void casoFalhaComprimentoInvalido();
-    void casoFalhaIntervaloAnoInvalido();
     void casoFalhaMesInvalido();
-    void casoFalhaIntervaloDiaMesQualquerInvalido();
-    void casoFalhaIntervaloDiaFevereiroNormalInvalido();
-    void casoFalhaIntervaloDiaFevereiroBixestoInvalido();
 };
 
 

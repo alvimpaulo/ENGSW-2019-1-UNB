@@ -22,7 +22,6 @@ public:
 
     //Cadastra um novo evento para o usuario atual. Todos parametros sao obrigatorios.
     virtual void cadastrarEvento(
-            const Codigo_De_Evento& codigoDeEvento,
             const Nome_De_Evento& nomeDeEvento,
             const std::list<Apresentacao>& apresentacoes,
             const Cidade& cidade,

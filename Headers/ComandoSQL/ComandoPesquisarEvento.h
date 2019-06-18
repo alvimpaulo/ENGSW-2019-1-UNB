@@ -12,7 +12,7 @@
 class ComandoPesquisarEvento : public ComandoSQL{
 public:
     std::list<std::pair<Evento, Apresentacao> >
-    pesquisarEvento(const Data &dataInicio, const Data &dataTermino, const Cidade &cidade, const Estado &estado)
+    pesquisarEvento(const Data &dataInicio, const Data &dataTermino, const Cidade &cidade, const Estado &estado);
 };
 
 

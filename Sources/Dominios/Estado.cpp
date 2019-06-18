@@ -22,7 +22,7 @@ Estado::Estado(){
 void Estado::setEstado(std::string estado){
     std::transform(estado.begin(), estado.end(), estado.begin(), ::toupper);
     if(validar(estado)){
-        this->indiceEstado = std::lower_bound(NOME_ESTADOS.begin(), NOME_ESTADOS.end(), estado) - NOME_ESTADOS.begin();
+        this->indiceEstado = std::find(NOME_ESTADOS.begin(), NOME_ESTADOS.end(), estado) - NOME_ESTADOS.begin();
     } else{
         throw (std::invalid_argument(estado + "nao eh uma sigla de estado valida"));
     }
@@ -31,8 +31,11 @@ void Estado::setEstado(std::string estado){
 bool Estado::validar(std::string estado){
     int indiceEstado;
 
-    indiceEstado = std::lower_bound(NOME_ESTADOS.begin(), NOME_ESTADOS.end(), estado) - NOME_ESTADOS.begin();
+    indiceEstado = std::find(NOME_ESTADOS.begin(), NOME_ESTADOS.end(), estado) - NOME_ESTADOS.begin();
 
+    if(indiceEstado == NOME_ESTADOS.size()){
+        return false;
+    }
     if(NOME_ESTADOS[indiceEstado] == estado){
         return true;
     } else{

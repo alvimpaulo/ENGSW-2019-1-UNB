@@ -14,21 +14,21 @@ Faixa_Etaria::Faixa_Etaria(){
 }
 
 void Faixa_Etaria::setFaixaEtaria(std::string faixaEtaria){
-    std::transform(faixaEtaria.begin(), faixaEtaria.end(), faixaEtaria.begin(), ::toupper);
     if(validar(faixaEtaria)){
-        this->indiceFaixaEtaria = std::lower_bound(FAIXA_ETARIA.begin(), FAIXA_ETARIA.end(), faixaEtaria) - FAIXA_ETARIA.begin();
+        this->indiceFaixaEtaria = std::find(FAIXA_ETARIA.begin(), FAIXA_ETARIA.end(), faixaEtaria) - FAIXA_ETARIA.begin();
     } else{
         throw (std::invalid_argument(faixaEtaria + "nao eh uma faixa etaria valida"));
     }
 }
 
 bool Faixa_Etaria::validar(std::string faixaEtaria){
-    int indiceFaixaEtaria;
-
-    indiceFaixaEtaria = std::lower_bound(FAIXA_ETARIA.begin(), FAIXA_ETARIA.end(), faixaEtaria) - FAIXA_ETARIA.begin();
-
-    if(FAIXA_ETARIA[indiceFaixaEtaria] == faixaEtaria){
-        return true;
+    std::regex nomeRegex(R"(L|(1[02468]))");
+    if(std::regex_match(faixaEtaria, nomeRegex)){
+        if(std::find(FAIXA_ETARIA.begin(), FAIXA_ETARIA.end(), faixaEtaria) != FAIXA_ETARIA.end()){
+            return true;
+        } else{
+            return false;
+        }
     } else{
         return false;
     }

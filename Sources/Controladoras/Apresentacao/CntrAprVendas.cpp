@@ -32,13 +32,14 @@ void CntrAprVendas::executar(Usuario &usuario) {
                 flag = false;
                 break;
             case OPCAO_SAIR_VENDAS:
+                flag = false;
             default:
                 break;
         }
     }
 }
 
-void CntrAprVendas::setCntrsServUsuarios(InterServVendas *cntrServVendas) {
+void CntrAprVendas::setCntrServVendas(InterServVendas *cntrServVendas) {
     this->cntrServVendas = cntrServVendas;
 }
 
@@ -71,10 +72,10 @@ void CntrAprVendas::comprarIngressos(const Usuario &usuario) {
         std::cout << std::endl << "nao foi possivel realizar a compra" << std::endl;
         return;
     }
-
-    for (int i = 0; i < ingressosVendidos.size(); ++i) {
-        std::cout << "Codigo de ingresso " << i + 1 << ": " << ingressosVendidos.back() << std::endl;
-        ingressosVendidos.pop_back();
+    int i = 0;
+    for (const auto& codigoIngresso: ingressosVendidos) {
+        std::cout << "Codigo de ingresso " << i + 1 << ": " << codigoIngresso << std::endl;
+        i++;
     }
     std::cout << "Compra realizada com sucesso" << std::endl;
 }
@@ -90,7 +91,7 @@ void CntrAprVendas::solicitarInformacaoVendas(const Usuario &usuario) {
     std::cout << "Sistema de Venda de Ingressos - Servicos de venda - Solicitacao de informacao." << std::endl << std::endl;
 
     try {
-        std::cout << "Digite o codigo do evento desejada: ";
+        std::cout << "Digite o codigo do evento desejado: ";
         std::getline(std::cin, input);
         codigoDeEvento.setCodigoEvento(input);
 
@@ -103,9 +104,9 @@ void CntrAprVendas::solicitarInformacaoVendas(const Usuario &usuario) {
         apresentacoesVsCpfs = cntrServVendas->solicitarInformacaoDeVendas(codigoDeEvento, usuario);
         for (auto const& i: apresentacoesVsCpfs){
             std::cout << "Apresentacao: " << i.first << std::endl;
-            std::cout << "Numero de compradores: " << i.second.size() << std::endl;
+            std::cout << "Numero de ingressos vendidos: " << i.second.size() << std::endl;
             for(auto const& j: i.second){
-                std::cout << "Cpf dos compradores: " << j << std::endl;
+                std::cout << "Cpf do comprador: " << j << std::endl;
             }
 
         }
@@ -113,7 +114,4 @@ void CntrAprVendas::solicitarInformacaoVendas(const Usuario &usuario) {
         std::cout << std::endl << "nao foi possível acessar as informacoes deste evento" << std::endl;
         return;
     }
-
-
-    std::cout << "Compra realizada com sucesso" << std::endl;
 }

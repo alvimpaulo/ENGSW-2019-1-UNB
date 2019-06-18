@@ -37,7 +37,13 @@ std::list<std::string> ComandoComprarIngresso::comprarIngresso(const Usuario &us
     std::ostringstream valorAtualStringStream;
     std::list<std::string> codigosIngressos;
 
-    int valorAtualInt = std::stoi(valorAtual);
+    int valorAtualInt;
+    if(valorAtual=="NULL"){
+        valorAtualInt = 0;
+    } else{
+        valorAtualInt = std::stoi(valorAtual);
+    }
+
 
     for (int i = 0; i < qtdIngresso; ++i) {
         valorAtualInt++;
@@ -81,6 +87,7 @@ std::list<std::string> ComandoComprarIngresso::comprarIngresso(const Usuario &us
         comandoSQL = "UPDATE Apresentacoes\n"
                      "   SET Disponibilidade = " + std::to_string(valorAtualInt) + "\n"
                      " WHERE Codigo = \"" + codigoDeApresentacao.getCodigoApresentacao() + "\";";
+        this->executar();
 
     }
 

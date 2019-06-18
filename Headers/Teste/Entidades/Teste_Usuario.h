@@ -5,6 +5,7 @@
 #ifndef TRABALHO_1_CLION_TESTE_USUARIO_H
 #define TRABALHO_1_CLION_TESTE_USUARIO_H
 
+#include <iostream>
 #include "../Teste.h"
 #include "../../Entidades/Usuario.h"
 #include "Teste_Entidades.h"

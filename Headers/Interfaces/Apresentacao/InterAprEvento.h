@@ -13,7 +13,11 @@ class InterAprEvento {
     protected:
     public:
         virtual void executar(Usuario& usuario) = 0;
-        virtual void setCntrsServAutenticacao(InterServEvento *cntrServEvento) = 0;
+        virtual void setCntrServEvento(InterServEvento *cntrServEvento) = 0;
+        virtual void pesquisar() = 0;
+        virtual void cadastrar(const Usuario& usuario) = 0;
+        virtual void descadastrar(const Usuario& usuario) = 0;
+        virtual void editar(const Usuario& usuario) = 0;
 
 };
 

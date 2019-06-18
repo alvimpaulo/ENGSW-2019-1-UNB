@@ -23,9 +23,9 @@ void ComandoCadastrarUsuario::cadastrarUsuario(const Usuario& usuario, const Car
 
     //converter data de dd/mm/aaaa para aaaa-mm-dd
     struct tm tmData;
-    strptime(cartaoDeCredito.getDataDeValidade().getData_De_Validade().c_str(), "%d/%m/%Y", &tmData);
+    strptime(cartaoDeCredito.getDataDeValidade().getData_De_Validade().c_str(), "%m/%y", &tmData);
     char dataConverted[11];
-    strftime(dataConverted, sizeof(dataConverted), "%Y-%m-%d", &tmData);
+    strftime(dataConverted, sizeof(dataConverted), "%Y-%m-01", &tmData);
 
     comandoSQL= "INSERT INTO CartoesDeCredito VALUES (\n"
                 "                                 '" + cartaoDeCredito.getNumero().getNum_Cartao() + "',\n"
@@ -33,4 +33,6 @@ void ComandoCadastrarUsuario::cadastrarUsuario(const Usuario& usuario, const Car
                 "                                 '" + dataConverted + "',\n"
                 "                                 '" + usuario.getCpf().getCpf() + "'\n"
                 "                             );";
+    this->executar();
+    listaResultado.clear();
 }

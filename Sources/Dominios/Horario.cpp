@@ -6,13 +6,13 @@
 
 #include "../../Headers/Dominios/Horario.h"
 
-oid Horario::setHorario(std::string horario){
+void Horario::setHorario(std::string horario){
     std::regex horarioRegex(R"(((0[7-9])|(1\d)|(2[0-2])):((00)|(15)|(30)|(45)))");
 
     if(std::regex_match(horario, horarioRegex)){
         this->horario = horario;
     } else{
-        throw std::invalid_argument("Codigo de apresentacao fora do padrao");
+        throw std::invalid_argument("Horario fora do padrao");
     }
 }
 

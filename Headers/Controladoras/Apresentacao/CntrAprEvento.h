@@ -18,13 +18,13 @@ private:
 public:
     CntrAprEvento();
      void executar(Usuario& usuario) override;
-    void setCntrsServAutenticacao(InterServEvento *cntrServEvento) override ;
+    void setCntrServEvento(InterServEvento *cntrServEvento) override ;
     ~CntrAprEvento();
 
-     void pesquisar();
-     void cadastrar(const Usuario& usuario);
-     void descadastrar(const Usuario& usuario);
-     void editar(const Usuario& usuario);
+     void pesquisar() override ;
+     void cadastrar(const Usuario& usuario) override ;
+     void descadastrar(const Usuario& usuario) override ;
+     void editar(const Usuario& usuario) override ;
 
 
 

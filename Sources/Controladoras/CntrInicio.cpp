@@ -12,7 +12,8 @@ void CntrInicio::iniciar() {
     while (!sair) {
         std::cout << "1 - Fazer login." << std::endl;
         std::cout << "2 - Cadastrar novo usuario." << std::endl;
-        std::cout << "3 - Sair." << std::endl << std::endl;
+        std::cout << "3 - Solicitar informacao de evento." << std::endl;
+        std::cout << "4 - Sair." << std::endl << std::endl;
         std::cout << "Escolha a opcao: ";
 
         std::getline(std::cin, input);
@@ -30,10 +31,18 @@ void CntrInicio::iniciar() {
                 cntrAprUsuarios->cadastrar();
                 continue;
             } catch (std::exception &exception){
-                std::cout << "nao foi possivel cadastrar motivo: " << exception.what()  << std::endl;
+                std::cout << "nao foi possivel cadastrar, motivo: " << exception.what()  << std::endl;
                 continue;
             }
-        } else if(res == 3){
+        }else if (res == 3) {
+            try {
+                cntrAprEvento->pesquisar();
+                continue;
+            } catch (std::exception &exception){
+                std::cout << "nao foi possivel pesquisar eventos, motivo: " << exception.what()  << std::endl;
+                continue;
+            }
+        } else if(res == 4){
             sair = true;
             return;
         }
@@ -48,6 +57,8 @@ void CntrInicio::iniciar() {
             std::cout << "Escolha a opcao: ";
 
             std::getline(std::cin, input);
+            if(input == "")
+                continue;
             res = std::stoi(input);
 
             if (res == 1) {
@@ -55,13 +66,16 @@ void CntrInicio::iniciar() {
                     cntrAprUsuarios->executar(usuario);
                 } catch (std::runtime_error &error){
                     if(std::strcmp(error.what(), "Usuario descadastrado") == 0){
-                        std::cout << "O usuario foi descadastrado com sucesso" << std::endl;
+                        //std::cout << "O usuario foi descadastrado com sucesso" << std::endl;
+                        break;
+                    } else if(std::strcmp(error.what(), "Usuario nao pode ser descadastrado") == 0) {
                         break;
                     } else{
-                        std::cout << "nao foi possivel gerenciar usuarios motivo: " << error.what() << std::endl;
+                            std::cout << "nao foi possivel gerenciar usuarios, motivo: " << error.what() << std::endl;
+                        }
                     }
-                } catch (std::exception &exception) {
-                    std::cout << "nao foi possivel gerenciar usuarios motivo: " << exception.what() << std::endl;
+                catch (std::exception &exception) {
+                    std::cout << "nao foi possivel gerenciar usuarios, motivo: " << exception.what() << std::endl;
                 }
             } else if (res == 2) {
                 try {

@@ -3,21 +3,25 @@
 //
 
 #include "../../Headers/Dominios/Preco.h"
+#include "string"
+#include <algorithm>
 
 Preco::Preco(){
     preco = 0.0f;
 }
 
 void Preco::setPreco(std::string preco){
+    std::replace(preco.begin(), preco.end(), ',', '.');
     if(validar(preco)){
-        this->preco = (std::round(std::stof(preco)*100)/100.0);
+        this->preco = (std::round(std::stof(preco) *100)/100.0);
     } else{
-        throw (std::invalid_argument(preco + "nao eh um preco valido"));
+        throw (std::invalid_argument(preco + " nao eh um preco valido"));
     }
 }
 
 bool Preco::validar(std::string preco){
-    std::regex nomeRegex(R"((\d+)(\.)(\d+))");
+    std::replace(preco.begin(), preco.end(), ',', '.');
+    std::regex nomeRegex(R"((\d+)((\,)|(\.))(\d+))");
 
     if(std::regex_match(preco, nomeRegex)){
         float tmpPreco = std::stof(preco);

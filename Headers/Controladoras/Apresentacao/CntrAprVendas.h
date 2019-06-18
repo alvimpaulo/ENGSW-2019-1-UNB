@@ -16,7 +16,7 @@ private:
     static const int OPCAO_SAIR_VENDAS = 3;
 public:
      void executar(Usuario& usuario) override;
-     void setCntrsServUsuarios(InterServVendas *cntrServVendas) override;
+     void setCntrServVendas(InterServVendas *cntrServVendas) override;
      void comprarIngressos(const Usuario& usuario);
      void solicitarInformacaoVendas(const Usuario& usuario);
 };

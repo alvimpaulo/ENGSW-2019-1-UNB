@@ -19,18 +19,6 @@
 class Data{
 public:
     /**
-     * @brief Vetor que contém os nomes válidos dos meses.
-     */
-    static const std::vector<std::string> NOME_MESES;
-    /**
-     * @brief Limite mínimo do ano.
-     */
-    static const int LIMITE_INFERIOR_ANO = 2000;
-    /**
-     * @brief Limite máximo do ano.
-     */
-    static const int LIMITE_SUPERIOR_ANO = 2099;
-    /**
      * @brief Limite mínimo do dia.
      */
     static const int LIMITE_INFERIOR_DIA = 1;
@@ -94,7 +82,7 @@ public:
 protected:
 private:
     std::string dia;
-    int mes;
+    std::string mes;
     std::string ano;
     std::string data;
 

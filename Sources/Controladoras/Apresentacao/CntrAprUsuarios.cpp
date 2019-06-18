@@ -4,7 +4,6 @@
 
 #include "../../../Headers/Controladoras/Apresentacao/CntrAprUsuarios.h"
 #include "../../../Headers/Entidades/Usuario.h"
-#include "../../../Headers/ComandoSQL/ComandoDescadastrarCartaoCredito.h"
 
 void CntrAprUsuarios::cadastrar() {
     Cpf cpf;
@@ -18,11 +17,11 @@ void CntrAprUsuarios::cadastrar() {
 
     std::string input;
 
-    while(cpf.getCpf() == "000.000.000-00" ||
-    senha.getSenha() == "NaoDef1!" ||
-    numCartaoCredito.getNum_Cartao() == "0000000000000000" ||
-    codigoDeSeguranca.getCodigoSeguranca() == "000" ||
-    dataDeValidade.getData_De_Validade() == "01/00") {
+    while (cpf.getCpf() == "000.000.000-00" ||
+           senha.getSenha() == "Na0Def" ||
+           numCartaoCredito.getNum_Cartao() == "0000000000000000" ||
+           codigoDeSeguranca.getCodigoSeguranca() == "000" ||
+           dataDeValidade.getData_De_Validade() == "01/00") {
         try {
             std::cout << "Digite o seu cpf : ";
             std::getline(std::cin, input);
@@ -55,14 +54,12 @@ void CntrAprUsuarios::cadastrar() {
     cartaoDeCredito.setDataDeValidade(dataDeValidade);
     cartaoDeCredito.setNumero(numCartaoCredito);
 
-    try{
+    try {
         cntrServUsuario->cadastrarUsuario(usuario, cartaoDeCredito);
-    } catch(std::invalid_argument &e){
+    } catch (std::invalid_argument &e) {
         std::cout << std::endl << "Nao foi possivel cadastrar usuario!" << std::endl;
         return;
     }
-
-    std::cout << std::endl << "Usuario cadastrado com sucesso!" << std::endl;
 }
 
 void CntrAprUsuarios::executar(Usuario& usuario) {
@@ -89,6 +86,7 @@ void CntrAprUsuarios::executar(Usuario& usuario) {
                 throw std::runtime_error("Usuario descadastrado");
                 break;
             case OPCAO_SAIR:
+                flag = false;
             default:
                 return;
         }
@@ -130,6 +128,7 @@ void CntrAprUsuarios::descadastrar(Usuario &usuario) {
                     flag = false;
                 } catch(std::runtime_error &e){
                     std::cout << std::endl << "Voce nao pode descadastrar enquanto houver evento cadastrado!" << std::endl;
+                    throw std::runtime_error("Usuario nao pode ser descadastrado");
                     return;
                 }
                 break;
