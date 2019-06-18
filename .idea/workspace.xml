@@ -12,160 +12,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7ebdddd-e599-4186-8849-b037edc35018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Classe_De_Evento.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Codigo_De_Apresentacao.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Codigo_De_Evento.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Codigo_De_Seguranca.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Cpf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Faixa_Etaria.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Horario.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Nome_De_Evento.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Num_De_Sala.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Preco.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Apresentacao.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Evento.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Ingresso.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Classe_De_Evento.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Codigo_De_Apresentacao.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Codigo_De_Evento.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Codigo_De_Seguranca.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Cpf.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Faixa_Etaria.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Horario.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Nome_De_Evento.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Num_De_Sala.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Preco.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Apresentacao.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Evento.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Ingresso.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/Database.db" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/DatabaseAntiga.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/DatabaseNova.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarAcomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarCartaoCredito.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarContaCorrente.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarEvento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCancelarReserva.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoChecarContaCorrente.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarCartaoCredito.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarContaCorrente.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoEditarAcomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarAcomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarEvento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoRealizarReserva.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprEvento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprReserva.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprVendas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprVendas.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServAcomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServReserva.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Servico/cntrServEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrServEvento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Agencia.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Data.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Dominios/Data.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Num_Conta_Corrente.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Tipo_Acomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Acomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Conta_Corrente.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprEvento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprReserva.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprVendas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprVendas.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServEvento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServEvento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Agencia.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Codigo_De_Ingresso.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Banco.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Disponibilidade.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Diaria.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Identificador.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Nome.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Cidade.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Acomodacao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Conta_Corrente.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Usuario.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Usuario.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarEvento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarEvento.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCancelarReserva.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoChecarContaCorrente.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoComprarIngresso.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoComprarIngresso.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarEvento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarEvento.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoRealizarReserva.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoSolicitarInformacaoDeVendas.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprEvento.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprVendas.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServAcomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServReserva.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Servico/cntrServEvento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrServEvento.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Agencia.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Data.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Estado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Estado.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Faixa_Etaria.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Faixa_Etaria.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Horario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Horario.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Identificador.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Nome_De_Evento.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Nome_De_Evento.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Num_Conta_Corrente.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Preco.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Preco.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Senha.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Senha.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Tipo_Acomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Acomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Conta_Corrente.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Agencia.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Codigo_De_Ingresso.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Banco.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Disponibilidade.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Diaria.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Identificador.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Nome.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Cidade.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Senha.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Senha.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Usuario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Usuario.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes to make or adapt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smoke Test.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Smoke Test.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -262,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="165">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -503,7 +382,7 @@
       <workItem from="1560337467108" duration="8567000" />
       <workItem from="1560508172389" duration="24115000" />
       <workItem from="1560639342396" duration="45578000" />
-      <workItem from="1560804116673" duration="16835000" />
+      <workItem from="1560804116673" duration="17916000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionadas as classes de dominio e entidades novas">
       <created>1560197512898</created>
@@ -547,16 +426,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560725036827</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Terminado.">
+      <created>1560830297255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560830297255</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127024000" />
+    <option name="totallyTimeSpent" value="128105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="747" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.3901515" />
+      <window_info id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.2651515" />
       <window_info id="Structure" order="1" sideWeight="0.5013624" side_tool="true" weight="0.23030303" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -569,7 +456,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.4942717" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.4942717" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1082,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="165">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
