@@ -1,7 +1,6 @@
-O trabalho foi feito pelos alunos Oscar Madureira e Paulo Alvim.
+O trabalho foi feito pelos alunos Paulo Alvim Alvarenga, Arthur da Veiga Feitoza Borges, Matheus Oliveira Braga. Com código aproveitado de um trabalho feito para a disciplina de Tecnicas de programação 1 pelos alunos 
+Paulo Alvim Alvarenga e Oscar Madureira.
 
-O arquivo executável encontra-se na pasta cmake-build-debug assim como o projeto do Code::Blocks.
+O projeto foi desenvolvido na IDE Clion, mas pode ser compilado através dos comandos "cmake ." e "make".
 
 O banco de dados utilizado pelos alunos se encontra na pasta Database.
-
-Os passos propostos no smoke test devem ser seguidos tal como foram escritos uma vez que consistem em criações e remoções encadeadas.
